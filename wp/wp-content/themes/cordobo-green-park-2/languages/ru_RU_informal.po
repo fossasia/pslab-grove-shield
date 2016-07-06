@@ -1,0 +1,424 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GP2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-30 10:41+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Perlover <perlover@perlover.com>\n"
+"Language-Team: GP2 Team <i18n@cordobo.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\n"
+"X-Poedit-SearchPath-0: greenpark_2_beta_2\n"
+
+#: greenpark_2_beta_2/ad_middle.php:2
+msgid "Advertisement"
+msgstr "Здесь могла бы быть ваша реклама, но ее здесь не будет :-)"
+
+#: greenpark_2_beta_2/archive.php:10
+msgid "Archive for the"
+msgstr "Архив для"
+
+#: greenpark_2_beta_2/archive.php:10
+msgid "category"
+msgstr "категории"
+
+#: greenpark_2_beta_2/archive.php:12
+msgid "Posts Tagged"
+msgstr "Статьи с ярлыком"
+
+#: greenpark_2_beta_2/archive.php:14
+#: greenpark_2_beta_2/archive.php:16
+#: greenpark_2_beta_2/archive.php:18
+msgid "Archive for"
+msgstr "Архив за"
+
+#: greenpark_2_beta_2/archive.php:14
+#: greenpark_2_beta_2/archive.php:34
+#: greenpark_2_beta_2/index-ads.php:12
+#: greenpark_2_beta_2/index.php:12
+msgid "F jS, Y"
+msgstr "j F, Y"
+
+#: greenpark_2_beta_2/archive.php:16
+msgid "F, Y"
+msgstr "F, Y"
+
+#: greenpark_2_beta_2/archive.php:18
+msgid "Y"
+msgstr "Y"
+
+#: greenpark_2_beta_2/archive.php:20
+msgid "Author Archive"
+msgstr "Архивы Автора"
+
+#: greenpark_2_beta_2/archive.php:22
+msgid "Blog Archives"
+msgstr "Архивы Блога"
+
+#: greenpark_2_beta_2/archive.php:27
+#: greenpark_2_beta_2/archive.php:55
+#: greenpark_2_beta_2/index-ads.php:41
+#: greenpark_2_beta_2/index.php:41
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Ранние статьи"
+
+#: greenpark_2_beta_2/archive.php:28
+#: greenpark_2_beta_2/archive.php:56
+#: greenpark_2_beta_2/index-ads.php:42
+#: greenpark_2_beta_2/index.php:42
+msgid "Newer Entries &raquo;"
+msgstr "Поздние статьи &raquo;"
+
+#: greenpark_2_beta_2/archive.php:34
+#: greenpark_2_beta_2/attachment.php:13
+msgid "Edit"
+msgstr "Редактировать"
+
+#: greenpark_2_beta_2/archive.php:37
+#: greenpark_2_beta_2/image.php:14
+#: greenpark_2_beta_2/index-ads.php:20
+#: greenpark_2_beta_2/index.php:20
+msgid "&raquo; Read more: "
+msgstr "&raquo; Читать дальше: "
+
+#: greenpark_2_beta_2/archive.php:42
+#: greenpark_2_beta_2/comments.php:20
+#: greenpark_2_beta_2/index-ads.php:15
+#: greenpark_2_beta_2/index-ads.php:25
+#: greenpark_2_beta_2/index.php:15
+#: greenpark_2_beta_2/index.php:25
+msgid "No comments"
+msgstr "Нет отзывов"
+
+#: greenpark_2_beta_2/archive.php:42
+#: greenpark_2_beta_2/comments.php:20
+#: greenpark_2_beta_2/index-ads.php:15
+#: greenpark_2_beta_2/index-ads.php:25
+#: greenpark_2_beta_2/index.php:15
+#: greenpark_2_beta_2/index.php:25
+msgid "1 comment"
+msgstr "1 отзыв"
+
+#: greenpark_2_beta_2/archive.php:42
+#: greenpark_2_beta_2/comments.php:20
+#: greenpark_2_beta_2/index-ads.php:15
+#: greenpark_2_beta_2/index-ads.php:25
+#: greenpark_2_beta_2/index.php:15
+#: greenpark_2_beta_2/index.php:25
+#, php-format
+msgid "% comments"
+msgstr "% отзывов"
+
+#: greenpark_2_beta_2/archive.php:45
+#: greenpark_2_beta_2/attachment.php:30
+#: greenpark_2_beta_2/image.php:24
+#: greenpark_2_beta_2/index-ads.php:28
+#: greenpark_2_beta_2/index.php:28
+msgid "Posted in "
+msgstr "Опубликовано в "
+
+#: greenpark_2_beta_2/archives.php:12
+msgid "Archives by Month"
+msgstr "Архивы по месяцам"
+
+#: greenpark_2_beta_2/archives.php:19
+msgid "Archives by Subject"
+msgstr "Архивы по Теме"
+
+#: greenpark_2_beta_2/attachment.php:12
+#: greenpark_2_beta_2/functions.php:330
+msgid "by"
+msgstr "от"
+
+#: greenpark_2_beta_2/attachment.php:22
+msgid "Previous Entry"
+msgstr "Предыдущая статья"
+
+#: greenpark_2_beta_2/attachment.php:23
+msgid "Next Entry"
+msgstr "Следующая статья"
+
+#: greenpark_2_beta_2/comments.php:8
+msgid "This post is password protected. Enter the password to view comments"
+msgstr "Эта публикция защищена паролем. Введите пароль для просмотра отзвов"
+
+#: greenpark_2_beta_2/comments.php:22
+msgid "Add your comment"
+msgstr "Оставьте свой отзыв"
+
+#: greenpark_2_beta_2/comments.php:36
+#: greenpark_2_beta_2/comments.php:46
+msgid "&laquo; Older Comments"
+msgstr "&laquo; Более старые отзывы"
+
+#: greenpark_2_beta_2/comments.php:37
+#: greenpark_2_beta_2/comments.php:47
+msgid "Newer Comments &raquo;"
+msgstr "Более свежие отзывы &raquo;"
+
+#: greenpark_2_beta_2/comments.php:57
+msgid "Trackbacks"
+msgstr "Уведомления (Trackbacks)"
+
+#: greenpark_2_beta_2/comments.php:59
+msgid "Pingbacks"
+msgstr "Pingbacks"
+
+#: greenpark_2_beta_2/comments.php:76
+msgid "Comments are closed"
+msgstr "Комментирование закрыто"
+
+#: greenpark_2_beta_2/comments.php:85
+msgid "Leave a Reply"
+msgstr "Оставить отзыв"
+
+#: greenpark_2_beta_2/comments.php:85
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Оставить отзыв к %s"
+
+#: greenpark_2_beta_2/comments.php:88
+msgid "Click here to cancel reply."
+msgstr "Кликните здесь для отмены отзыва."
+
+#: greenpark_2_beta_2/comments.php:94
+msgid "You must be"
+msgstr "Вы должны"
+
+#: greenpark_2_beta_2/comments.php:94
+msgid "logged in"
+msgstr "войти"
+
+#: greenpark_2_beta_2/comments.php:94
+msgid "to post a comment"
+msgstr "оставить отзыв"
+
+#: greenpark_2_beta_2/comments.php:102
+msgid "Logged in as"
+msgstr "Вы зашли как"
+
+#: greenpark_2_beta_2/comments.php:102
+msgid "Log out of this account"
+msgstr "Выйти из этого аккаунта"
+
+#: greenpark_2_beta_2/comments.php:102
+msgid "Log out"
+msgstr "Выйти"
+
+#: greenpark_2_beta_2/comments.php:108
+msgid "Name"
+msgstr "Имя"
+
+#: greenpark_2_beta_2/comments.php:111
+msgid "Mail (will not be published)"
+msgstr "E-Mail (не будет опубликован)"
+
+#: greenpark_2_beta_2/comments.php:114
+msgid "Website"
+msgstr "Вебсайт"
+
+#: greenpark_2_beta_2/comments.php:119
+msgid "You can use these tags"
+msgstr "Вы можете использовать эти ярлыки"
+
+#: greenpark_2_beta_2/comments.php:123
+msgid "Submit Comment"
+msgstr "Оставить комментарий"
+
+#: greenpark_2_beta_2/functions.php:312
+msgid "Green Park 2 Settings"
+msgstr "Green Park 2 Установки"
+
+#: greenpark_2_beta_2/functions.php:321
+msgid "Back to Top"
+msgstr "Вернуться в начало"
+
+#: greenpark_2_beta_2/functions.php:326
+msgid "Proudly powered by"
+msgstr "Реализовано с помощью"
+
+#: greenpark_2_beta_2/functions.php:327
+msgid "Blogsoftware by Wordpress"
+msgstr "Программная поддержка от Wordpress"
+
+#: greenpark_2_beta_2/functions.php:335
+msgid "Valid XHTML 1.0 Transitional | Valid CSS 3"
+msgstr "Valid XHTML 1.0 Transitional | Valid CSS 3"
+
+#: greenpark_2_beta_2/header.php:36
+msgid "Go to homepage"
+msgstr "Перейти на главную"
+
+#: greenpark_2_beta_2/header.php:36
+#: greenpark_2_beta_2/header.php:56
+msgid "Home"
+msgstr "Главная"
+
+#: greenpark_2_beta_2/header.php:37
+msgid "Content"
+msgstr "Содержимое"
+
+#: greenpark_2_beta_2/image.php:28
+msgid "You can follow any responses to this entry through the"
+msgstr "Вы можете следить за отзывами к этой статье через"
+
+#: greenpark_2_beta_2/image.php:28
+msgid "RSS 2.0 Feed"
+msgstr "RSS 2.0 Ленту"
+
+#: greenpark_2_beta_2/image.php:32
+msgid "You can"
+msgstr "Вы можете"
+
+#: greenpark_2_beta_2/image.php:32
+msgid "leave a response"
+msgstr "оставить отзыв"
+
+#: greenpark_2_beta_2/image.php:32
+msgid ", or "
+msgstr ", или "
+
+#: greenpark_2_beta_2/image.php:32
+#: greenpark_2_beta_2/image.php:36
+msgid "trackback"
+msgstr "trackback уведомление"
+
+#: greenpark_2_beta_2/image.php:32
+#: greenpark_2_beta_2/image.php:36
+msgid "from your own site"
+msgstr "с вашего сайта"
+
+#: greenpark_2_beta_2/image.php:36
+msgid "Responses are currently closed, but you can"
+msgstr "Оставлять отзывы нельзя, но вы можете"
+
+#: greenpark_2_beta_2/image.php:40
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Вы можете пропустить это и перейти в конец страницы для отзывов. Pinging недоступно."
+
+#: greenpark_2_beta_2/image.php:44
+msgid "Both comments and pings are currently closed."
+msgstr "Комментирование и пингование закрыто"
+
+#: greenpark_2_beta_2/image.php:46
+#: greenpark_2_beta_2/index-ads.php:12
+#: greenpark_2_beta_2/index.php:12
+#: greenpark_2_beta_2/page.php:9
+msgid "Edit this entry"
+msgstr "Редактировать эту статью"
+
+#: greenpark_2_beta_2/index-ads.php:9
+#: greenpark_2_beta_2/index.php:9
+msgid "Permanent Link to"
+msgstr "Постоянный адрес"
+
+#: greenpark_2_beta_2/links.php:12
+msgid "Links"
+msgstr "Ссылки"
+
+#: greenpark_2_beta_2/missing.php:2
+msgid "Not Found"
+msgstr "Не обнаружено"
+
+#: greenpark_2_beta_2/missing.php:4
+msgid "Apologies, but we were unable to find what you were looking for. Perhaps  searching will help."
+msgstr "Приносим свои извинения, но данная страница не существует. Возможно, вам поможет поиск по сайту."
+
+#: greenpark_2_beta_2/missing.php:8
+msgid "Or go to the homepage"
+msgstr "Или перейдите на главную страницу"
+
+#: greenpark_2_beta_2/search.php:8
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+#: greenpark_2_beta_2/search.php:28
+msgid "No posts found. Try a different search?"
+msgstr "Нет статей. Попробовать другой поиск?"
+
+#: greenpark_2_beta_2/sidebar.php:10
+msgid "Latest Tweet"
+msgstr "Последний Tweet"
+
+#: greenpark_2_beta_2/sidebar.php:13
+msgid "Follow me on twitter"
+msgstr "Следуйте за мной на twitter"
+
+#: greenpark_2_beta_2/sidebar.php:13
+msgid "here"
+msgstr "здесь"
+
+#: greenpark_2_beta_2/sidebar.php:23
+msgid "Subscribe to my feed - You'll be happy!"
+msgstr "Подпишитесь на мой канал! :)"
+
+#: greenpark_2_beta_2/sidebar.php:24
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: greenpark_2_beta_2/sidebar.php:25
+msgid "Subscribe to my blogs feed"
+msgstr "Подпишитесь на мой канал (feed) блога"
+
+#: greenpark_2_beta_2/sidebar.php:61
+msgid "You are currently browsing the archives for the"
+msgstr "Вы смотрите архивы"
+
+#: greenpark_2_beta_2/sidebar.php:64
+msgid "You are currently browsing the archives for the day"
+msgstr "Вы смотрите дневные архивы за"
+
+#: greenpark_2_beta_2/sidebar.php:67
+msgid "You are currently browsing the archives for"
+msgstr "Вы смотрите архивы за"
+
+#: greenpark_2_beta_2/sidebar.php:70
+msgid "You are currently browsing the archives for the year"
+msgstr "Вы смотрите архивы за год"
+
+#: greenpark_2_beta_2/sidebar.php:73
+msgid "You have searched for"
+msgstr "Вы искали"
+
+#: greenpark_2_beta_2/sidebar.php:74
+msgid "If you are unable to find anything in these search results, you can try one of these links"
+msgstr "Если вы не можете найти что либо в этих результатах, вы можете попробовать одну из этих ссылок"
+
+#: greenpark_2_beta_2/sidebar.php:77
+msgid "You are currently browsing the"
+msgstr "Вы находитесь на блоге"
+
+#: greenpark_2_beta_2/sidebar.php:77
+msgid "blog archives"
+msgstr "архивы блога"
+
+#: greenpark_2_beta_2/sidebar.php:90
+msgid "Pages"
+msgstr "Страницы"
+
+#: greenpark_2_beta_2/sidebar.php:94
+msgid "Archives"
+msgstr "Архивы"
+
+#: greenpark_2_beta_2/sidebar.php:102
+msgid "Categories"
+msgstr "Категории"
+
+#: greenpark_2_beta_2/sidebar.php:118
+msgid "Meta"
+msgstr "Meta параметры"
+
+#: greenpark_2_beta_2/single.php:16
+msgid "Leave a reply"
+msgstr "Оставить отзыв"
+
+#: greenpark_2_beta_2/single.php:40
+msgid ", or"
+msgstr ", или"
+

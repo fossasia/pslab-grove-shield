@@ -1,0 +1,24 @@
+/* body bg */
+body { background: url(img/bg-body-ie6.png) 50% 85px no-repeat; }
+
+
+/* http://positioniseverything.net/explorer/threepxtest.html */
+#sidebar { margin-left: -6px; overflow: hidden; }
+
+
+/* Resizes larger images to fit max-width of content: 577px to 576px */
+.entry img { width: expression(this.width > 577 ? 576: true); }
+* html entry img { height: 1%; margin-left: 0; }
+
+
+/* http://www.positioniseverything.net/explorer/creep.html */
+blockquote, .entry blockquote { width: 95%; }
+ol li.comment blockquote { width: 80%; }
+
+
+body .comment { border-left: 60px solid #f9fbfc; margin-bottom: -3px; }
+body .comment .comment-body { height: 1%; margin-left: 0; }
+
+
+/* Adds some minimum height to the navigation to show the background-color */
+div.navigation { height: 1%; }

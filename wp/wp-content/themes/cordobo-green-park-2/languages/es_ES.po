@@ -1,0 +1,424 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GP2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-30 10:41+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jose <maojose@gmail.com>\n"
+"Language-Team: GP2 Team <i18n@cordobo.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\n"
+"X-Poedit-SearchPath-0: greenpark_2_beta_2\n"
+
+#: greenpark_2_beta_2/ad_middle.php:2
+msgid "Advertisement"
+msgstr "Publicidad"
+
+#: greenpark_2_beta_2/archive.php:10
+msgid "Archive for the"
+msgstr "Archivado en: "
+
+#: greenpark_2_beta_2/archive.php:10
+msgid "category"
+msgstr "."
+
+#: greenpark_2_beta_2/archive.php:12
+msgid "Posts Tagged"
+msgstr "Temas etiquetados como: "
+
+#: greenpark_2_beta_2/archive.php:14
+#: greenpark_2_beta_2/archive.php:16
+#: greenpark_2_beta_2/archive.php:18
+msgid "Archive for"
+msgstr "Archivado en"
+
+#: greenpark_2_beta_2/archive.php:14
+#: greenpark_2_beta_2/archive.php:34
+#: greenpark_2_beta_2/index-ads.php:12
+#: greenpark_2_beta_2/index.php:12
+msgid "F jS, Y"
+msgstr "j F, Y"
+
+#: greenpark_2_beta_2/archive.php:16
+msgid "F, Y"
+msgstr ""
+
+#: greenpark_2_beta_2/archive.php:18
+msgid "Y"
+msgstr ""
+
+#: greenpark_2_beta_2/archive.php:20
+msgid "Author Archive"
+msgstr "Autor del Archivo"
+
+#: greenpark_2_beta_2/archive.php:22
+msgid "Blog Archives"
+msgstr "Archivos del Blog"
+
+#: greenpark_2_beta_2/archive.php:27
+#: greenpark_2_beta_2/archive.php:55
+#: greenpark_2_beta_2/index-ads.php:41
+#: greenpark_2_beta_2/index.php:41
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Entradas anteriores"
+
+#: greenpark_2_beta_2/archive.php:28
+#: greenpark_2_beta_2/archive.php:56
+#: greenpark_2_beta_2/index-ads.php:42
+#: greenpark_2_beta_2/index.php:42
+msgid "Newer Entries &raquo;"
+msgstr "Entradas recientes &raquo;"
+
+#: greenpark_2_beta_2/archive.php:34
+#: greenpark_2_beta_2/attachment.php:13
+msgid "Edit"
+msgstr "Editar"
+
+#: greenpark_2_beta_2/archive.php:37
+#: greenpark_2_beta_2/image.php:14
+#: greenpark_2_beta_2/index-ads.php:20
+#: greenpark_2_beta_2/index.php:20
+msgid "&raquo; Read more: "
+msgstr "&raquo; Leer más: "
+
+#: greenpark_2_beta_2/archive.php:42
+#: greenpark_2_beta_2/comments.php:20
+#: greenpark_2_beta_2/index-ads.php:15
+#: greenpark_2_beta_2/index-ads.php:25
+#: greenpark_2_beta_2/index.php:15
+#: greenpark_2_beta_2/index.php:25
+msgid "No comments"
+msgstr "Sin comentarios"
+
+#: greenpark_2_beta_2/archive.php:42
+#: greenpark_2_beta_2/comments.php:20
+#: greenpark_2_beta_2/index-ads.php:15
+#: greenpark_2_beta_2/index-ads.php:25
+#: greenpark_2_beta_2/index.php:15
+#: greenpark_2_beta_2/index.php:25
+msgid "1 comment"
+msgstr "1 comentario"
+
+#: greenpark_2_beta_2/archive.php:42
+#: greenpark_2_beta_2/comments.php:20
+#: greenpark_2_beta_2/index-ads.php:15
+#: greenpark_2_beta_2/index-ads.php:25
+#: greenpark_2_beta_2/index.php:15
+#: greenpark_2_beta_2/index.php:25
+#, php-format
+msgid "% comments"
+msgstr "% comentarios"
+
+#: greenpark_2_beta_2/archive.php:45
+#: greenpark_2_beta_2/attachment.php:30
+#: greenpark_2_beta_2/image.php:24
+#: greenpark_2_beta_2/index-ads.php:28
+#: greenpark_2_beta_2/index.php:28
+msgid "Posted in "
+msgstr "Publicado en"
+
+#: greenpark_2_beta_2/archives.php:12
+msgid "Archives by Month"
+msgstr "Archivos por Mes"
+
+#: greenpark_2_beta_2/archives.php:19
+msgid "Archives by Subject"
+msgstr "Archivos por Tema"
+
+#: greenpark_2_beta_2/attachment.php:12
+#: greenpark_2_beta_2/functions.php:330
+msgid "by"
+msgstr "por"
+
+#: greenpark_2_beta_2/attachment.php:22
+msgid "Previous Entry"
+msgstr "Entrada Anterior"
+
+#: greenpark_2_beta_2/attachment.php:23
+msgid "Next Entry"
+msgstr "Siguiente Entrada"
+
+#: greenpark_2_beta_2/comments.php:8
+msgid "This post is password protected. Enter the password to view comments"
+msgstr "Este tema está protegido con contraseña. Introduzca la contraseña para ver los comentarios"
+
+#: greenpark_2_beta_2/comments.php:22
+msgid "Add your comment"
+msgstr "Añada su comentario"
+
+#: greenpark_2_beta_2/comments.php:36
+#: greenpark_2_beta_2/comments.php:46
+msgid "&laquo; Older Comments"
+msgstr "&laquo; Comentarios antiguos"
+
+#: greenpark_2_beta_2/comments.php:37
+#: greenpark_2_beta_2/comments.php:47
+msgid "Newer Comments &raquo;"
+msgstr "Comentarios recientes &raquo;"
+
+#: greenpark_2_beta_2/comments.php:57
+msgid "Trackbacks"
+msgstr ""
+
+#: greenpark_2_beta_2/comments.php:59
+msgid "Pingbacks"
+msgstr ""
+
+#: greenpark_2_beta_2/comments.php:76
+msgid "Comments are closed"
+msgstr "Comentarios cerrados"
+
+#: greenpark_2_beta_2/comments.php:85
+msgid "Leave a Reply"
+msgstr "Dejar respuesta"
+
+#: greenpark_2_beta_2/comments.php:85
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Deje una respuesta a"
+
+#: greenpark_2_beta_2/comments.php:88
+msgid "Click here to cancel reply."
+msgstr "Click para cancelar respuesta."
+
+#: greenpark_2_beta_2/comments.php:94
+msgid "You must be"
+msgstr "Debe de"
+
+#: greenpark_2_beta_2/comments.php:94
+msgid "logged in"
+msgstr "iniciar sesión"
+
+#: greenpark_2_beta_2/comments.php:94
+msgid "to post a comment"
+msgstr "para publicar un comentario"
+
+#: greenpark_2_beta_2/comments.php:102
+msgid "Logged in as"
+msgstr "Conectado como"
+
+#: greenpark_2_beta_2/comments.php:102
+msgid "Log out of this account"
+msgstr "Salir de esta cuenta"
+
+#: greenpark_2_beta_2/comments.php:102
+msgid "Log out"
+msgstr "Salir"
+
+#: greenpark_2_beta_2/comments.php:108
+msgid "Name"
+msgstr "Nombre"
+
+#: greenpark_2_beta_2/comments.php:111
+msgid "Mail (will not be published)"
+msgstr "Correo (no será publicado)"
+
+#: greenpark_2_beta_2/comments.php:114
+msgid "Website"
+msgstr ""
+
+#: greenpark_2_beta_2/comments.php:119
+msgid "You can use these tags"
+msgstr "Puede usar estas etiquetas"
+
+#: greenpark_2_beta_2/comments.php:123
+msgid "Submit Comment"
+msgstr "Enviar Comentario"
+
+#: greenpark_2_beta_2/functions.php:312
+msgid "Green Park 2 Settings"
+msgstr "Configuración de Green Park 2"
+
+#: greenpark_2_beta_2/functions.php:321
+msgid "Back to Top"
+msgstr "Subir"
+
+#: greenpark_2_beta_2/functions.php:326
+msgid "Proudly powered by"
+msgstr "Powered por"
+
+#: greenpark_2_beta_2/functions.php:327
+msgid "Blogsoftware by Wordpress"
+msgstr ""
+
+#: greenpark_2_beta_2/functions.php:335
+msgid "Valid XHTML 1.0 Transitional | Valid CSS 3"
+msgstr "XHTML 1.0 Válido Transitional | Válido CSS 3"
+
+#: greenpark_2_beta_2/header.php:36
+msgid "Go to homepage"
+msgstr "Ir a Inicio"
+
+#: greenpark_2_beta_2/header.php:36
+#: greenpark_2_beta_2/header.php:56
+msgid "Home"
+msgstr "Inicio"
+
+#: greenpark_2_beta_2/header.php:37
+msgid "Content"
+msgstr "Contenido"
+
+#: greenpark_2_beta_2/image.php:28
+msgid "You can follow any responses to this entry through the"
+msgstr "Puede seguir cualquier respuesta a esta entrada a través de la"
+
+#: greenpark_2_beta_2/image.php:28
+msgid "RSS 2.0 Feed"
+msgstr ""
+
+#: greenpark_2_beta_2/image.php:32
+msgid "You can"
+msgstr "Puede"
+
+#: greenpark_2_beta_2/image.php:32
+msgid "leave a response"
+msgstr "dejar una respuesta"
+
+#: greenpark_2_beta_2/image.php:32
+msgid ", or "
+msgstr ", o"
+
+#: greenpark_2_beta_2/image.php:32
+#: greenpark_2_beta_2/image.php:36
+msgid "trackback"
+msgstr ""
+
+#: greenpark_2_beta_2/image.php:32
+#: greenpark_2_beta_2/image.php:36
+msgid "from your own site"
+msgstr "de su propio sitio"
+
+#: greenpark_2_beta_2/image.php:36
+msgid "Responses are currently closed, but you can"
+msgstr "Las respuestas están actualmente cerradas, pero puede"
+
+#: greenpark_2_beta_2/image.php:40
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Puede saltar al final y dejar una respuesta. Ping no está permitido."
+
+#: greenpark_2_beta_2/image.php:44
+msgid "Both comments and pings are currently closed."
+msgstr "Ambos comentarios y pings están actualmente cerrados."
+
+#: greenpark_2_beta_2/image.php:46
+#: greenpark_2_beta_2/index-ads.php:12
+#: greenpark_2_beta_2/index.php:12
+#: greenpark_2_beta_2/page.php:9
+msgid "Edit this entry"
+msgstr "Editar esta entrada"
+
+#: greenpark_2_beta_2/index-ads.php:9
+#: greenpark_2_beta_2/index.php:9
+msgid "Permanent Link to"
+msgstr "Enlace Permanente a"
+
+#: greenpark_2_beta_2/links.php:12
+msgid "Links"
+msgstr "Enlaces"
+
+#: greenpark_2_beta_2/missing.php:2
+msgid "Not Found"
+msgstr "No encontrado"
+
+#: greenpark_2_beta_2/missing.php:4
+msgid "Apologies, but we were unable to find what you were looking for. Perhaps  searching will help."
+msgstr "Disculpas, pero no hemos podido encontrar lo que estaba buscando. Tal vez la búsqueda con ayuda."
+
+#: greenpark_2_beta_2/missing.php:8
+msgid "Or go to the homepage"
+msgstr "O ir a la página de Inicio"
+
+#: greenpark_2_beta_2/search.php:8
+msgid "Search Results"
+msgstr "Resultados de la Búsqueda"
+
+#: greenpark_2_beta_2/search.php:28
+msgid "No posts found. Try a different search?"
+msgstr "Sin resultados. ¿Intentar otra búsqueda?"
+
+#: greenpark_2_beta_2/sidebar.php:10
+msgid "Latest Tweet"
+msgstr "Ultimo Tweet"
+
+#: greenpark_2_beta_2/sidebar.php:13
+msgid "Follow me on twitter"
+msgstr "Síguame en twitter"
+
+#: greenpark_2_beta_2/sidebar.php:13
+msgid "here"
+msgstr "aquí"
+
+#: greenpark_2_beta_2/sidebar.php:23
+msgid "Subscribe to my feed - You'll be happy!"
+msgstr "Suscribirse a mi feed - Usted será más feliz!"
+
+#: greenpark_2_beta_2/sidebar.php:24
+msgid "Subscribe"
+msgstr "Suscribirse"
+
+#: greenpark_2_beta_2/sidebar.php:25
+msgid "Subscribe to my blogs feed"
+msgstr "Suscribirse a los feed del blog"
+
+#: greenpark_2_beta_2/sidebar.php:61
+msgid "You are currently browsing the archives for the"
+msgstr "Usted está navegando por los archivos del"
+
+#: greenpark_2_beta_2/sidebar.php:64
+msgid "You are currently browsing the archives for the day"
+msgstr "Usted está navegando por los archivos del día"
+
+#: greenpark_2_beta_2/sidebar.php:67
+msgid "You are currently browsing the archives for"
+msgstr "Usted está navegando por los archivos de"
+
+#: greenpark_2_beta_2/sidebar.php:70
+msgid "You are currently browsing the archives for the year"
+msgstr "Usted está navegando por los archivos del año"
+
+#: greenpark_2_beta_2/sidebar.php:73
+msgid "You have searched for"
+msgstr "Ha buscado por"
+
+#: greenpark_2_beta_2/sidebar.php:74
+msgid "If you are unable to find anything in these search results, you can try one of these links"
+msgstr "Si no puede encontrar nada con estos resultados de búsqueda, pruebe uno de estos enlaces"
+
+#: greenpark_2_beta_2/sidebar.php:77
+msgid "You are currently browsing the"
+msgstr " Usted está revisando actualmente los"
+
+#: greenpark_2_beta_2/sidebar.php:77
+msgid "blog archives"
+msgstr "archivos del blog"
+
+#: greenpark_2_beta_2/sidebar.php:90
+msgid "Pages"
+msgstr "Páginas"
+
+#: greenpark_2_beta_2/sidebar.php:94
+msgid "Archives"
+msgstr "Archivos"
+
+#: greenpark_2_beta_2/sidebar.php:102
+msgid "Categories"
+msgstr "Categorías"
+
+#: greenpark_2_beta_2/sidebar.php:118
+msgid "Meta"
+msgstr ""
+
+#: greenpark_2_beta_2/single.php:16
+msgid "Leave a reply"
+msgstr "Dejar una respuesta"
+
+#: greenpark_2_beta_2/single.php:40
+msgid ", or"
+msgstr ", o"
+
