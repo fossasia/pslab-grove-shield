@@ -1,0 +1,425 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GP2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-30 10:41+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jon Klarström\n"
+"Language-Team: GP2 Team <i18n@cordobo.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"X-Poedit-SearchPath-0: greenpark_2_beta_2\n"
+
+#: greenpark_2_beta_2/ad_middle.php:2
+msgid "Advertisement"
+msgstr "Annonser"
+
+#: greenpark_2_beta_2/archive.php:10
+msgid "Archive for the"
+msgstr "Arkiv för"
+
+#: greenpark_2_beta_2/archive.php:10
+msgid "category"
+msgstr "kategori"
+
+#: greenpark_2_beta_2/archive.php:12
+msgid "Posts Tagged"
+msgstr "Inlägg märkta"
+
+#: greenpark_2_beta_2/archive.php:14
+#: greenpark_2_beta_2/archive.php:16
+#: greenpark_2_beta_2/archive.php:18
+msgid "Archive for"
+msgstr "Arkiv för"
+
+#: greenpark_2_beta_2/archive.php:14
+#: greenpark_2_beta_2/archive.php:34
+#: greenpark_2_beta_2/index-ads.php:12
+#: greenpark_2_beta_2/index.php:12
+msgid "F jS, Y"
+msgstr "j F, Y"
+
+#: greenpark_2_beta_2/archive.php:16
+msgid "F, Y"
+msgstr "F, Y"
+
+#: greenpark_2_beta_2/archive.php:18
+msgid "Y"
+msgstr "Y"
+
+#: greenpark_2_beta_2/archive.php:20
+msgid "Author Archive"
+msgstr "Författararkiv"
+
+#: greenpark_2_beta_2/archive.php:22
+msgid "Blog Archives"
+msgstr "Bloggarkiv"
+
+#: greenpark_2_beta_2/archive.php:27
+#: greenpark_2_beta_2/archive.php:55
+#: greenpark_2_beta_2/index-ads.php:41
+#: greenpark_2_beta_2/index.php:41
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Äldre poster"
+
+#: greenpark_2_beta_2/archive.php:28
+#: greenpark_2_beta_2/archive.php:56
+#: greenpark_2_beta_2/index-ads.php:42
+#: greenpark_2_beta_2/index.php:42
+msgid "Newer Entries &raquo;"
+msgstr "Nyare poster &raquo;"
+
+#: greenpark_2_beta_2/archive.php:34
+#: greenpark_2_beta_2/attachment.php:13
+msgid "Edit"
+msgstr "Redigera"
+
+#: greenpark_2_beta_2/archive.php:37
+#: greenpark_2_beta_2/image.php:14
+#: greenpark_2_beta_2/index-ads.php:20
+#: greenpark_2_beta_2/index.php:20
+msgid "&raquo; Read more: "
+msgstr "Läs mer &raquo;"
+
+#: greenpark_2_beta_2/archive.php:42
+#: greenpark_2_beta_2/comments.php:20
+#: greenpark_2_beta_2/index-ads.php:15
+#: greenpark_2_beta_2/index-ads.php:25
+#: greenpark_2_beta_2/index.php:15
+#: greenpark_2_beta_2/index.php:25
+msgid "No comments"
+msgstr "Inga kommentarer"
+
+#: greenpark_2_beta_2/archive.php:42
+#: greenpark_2_beta_2/comments.php:20
+#: greenpark_2_beta_2/index-ads.php:15
+#: greenpark_2_beta_2/index-ads.php:25
+#: greenpark_2_beta_2/index.php:15
+#: greenpark_2_beta_2/index.php:25
+msgid "1 comment"
+msgstr "1 kommentar"
+
+#: greenpark_2_beta_2/archive.php:42
+#: greenpark_2_beta_2/comments.php:20
+#: greenpark_2_beta_2/index-ads.php:15
+#: greenpark_2_beta_2/index-ads.php:25
+#: greenpark_2_beta_2/index.php:15
+#: greenpark_2_beta_2/index.php:25
+#, php-format
+msgid "% comments"
+msgstr "% kommentarer"
+
+#: greenpark_2_beta_2/archive.php:45
+#: greenpark_2_beta_2/attachment.php:30
+#: greenpark_2_beta_2/image.php:24
+#: greenpark_2_beta_2/index-ads.php:28
+#: greenpark_2_beta_2/index.php:28
+msgid "Posted in "
+msgstr "Postat i"
+
+#: greenpark_2_beta_2/archives.php:12
+msgid "Archives by Month"
+msgstr "Månadsarkiv"
+
+#: greenpark_2_beta_2/archives.php:19
+msgid "Archives by Subject"
+msgstr "Ämnesarkiv"
+
+#: greenpark_2_beta_2/attachment.php:12
+#: greenpark_2_beta_2/functions.php:330
+msgid "by"
+msgstr "av"
+
+#: greenpark_2_beta_2/attachment.php:22
+msgid "Previous Entry"
+msgstr "Föregående inlägg"
+
+#: greenpark_2_beta_2/attachment.php:23
+msgid "Next Entry"
+msgstr "Nästa inlägg"
+
+#: greenpark_2_beta_2/comments.php:8
+msgid "This post is password protected. Enter the password to view comments"
+msgstr "Detta inlägg är lösenordsskyddat. Ange lösenordet för att se kommentarer."
+
+#: greenpark_2_beta_2/comments.php:22
+msgid "Add your comment"
+msgstr "Skriv din kommentar"
+
+#: greenpark_2_beta_2/comments.php:36
+#: greenpark_2_beta_2/comments.php:46
+msgid "&laquo; Older Comments"
+msgstr "&laquo; Äldre kommentarer"
+
+#: greenpark_2_beta_2/comments.php:37
+#: greenpark_2_beta_2/comments.php:47
+msgid "Newer Comments &raquo;"
+msgstr "Nyare kommentarer &raquo;"
+
+#: greenpark_2_beta_2/comments.php:57
+msgid "Trackbacks"
+msgstr "Trackbacks"
+
+#: greenpark_2_beta_2/comments.php:59
+msgid "Pingbacks"
+msgstr "Pingar"
+
+#: greenpark_2_beta_2/comments.php:76
+msgid "Comments are closed"
+msgstr "Kommentering avstängd"
+
+#: greenpark_2_beta_2/comments.php:85
+msgid "Leave a Reply"
+msgstr "Lämna ett svar"
+
+#: greenpark_2_beta_2/comments.php:85
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Lämna ett svar till %s"
+
+#: greenpark_2_beta_2/comments.php:88
+msgid "Click here to cancel reply."
+msgstr "Klicka här för att avbryta svar."
+
+#: greenpark_2_beta_2/comments.php:94
+msgid "You must be"
+msgstr "Du måste vara"
+
+#: greenpark_2_beta_2/comments.php:94
+msgid "logged in"
+msgstr "inloggad"
+
+#: greenpark_2_beta_2/comments.php:94
+msgid "to post a comment"
+msgstr "för att kunna posta kommentarer."
+
+#: greenpark_2_beta_2/comments.php:102
+msgid "Logged in as"
+msgstr "Inloggad som"
+
+#: greenpark_2_beta_2/comments.php:102
+msgid "Log out of this account"
+msgstr "Logga ut från detta konto"
+
+#: greenpark_2_beta_2/comments.php:102
+msgid "Log out"
+msgstr "Logga ut"
+
+#: greenpark_2_beta_2/comments.php:108
+msgid "Name"
+msgstr "Namn"
+
+#: greenpark_2_beta_2/comments.php:111
+msgid "Mail (will not be published)"
+msgstr "E-post (visas inte)"
+
+#: greenpark_2_beta_2/comments.php:114
+msgid "Website"
+msgstr "Hemsida"
+
+#: greenpark_2_beta_2/comments.php:119
+msgid "You can use these tags"
+msgstr "Du kan använda följande taggar"
+
+#: greenpark_2_beta_2/comments.php:123
+msgid "Submit Comment"
+msgstr "Skicka kommentar"
+
+#: greenpark_2_beta_2/functions.php:312
+msgid "Green Park 2 Settings"
+msgstr "Inställningar för Green Park 2"
+
+#: greenpark_2_beta_2/functions.php:321
+msgid "Back to Top"
+msgstr "Överst"
+
+#: greenpark_2_beta_2/functions.php:326
+msgid "Proudly powered by"
+msgstr "Drivs stolt med"
+
+#: greenpark_2_beta_2/functions.php:327
+msgid "Blogsoftware by Wordpress"
+msgstr "Bloggmjukvara från Wordpress"
+
+#: greenpark_2_beta_2/functions.php:335
+msgid "Valid XHTML 1.0 Transitional | Valid CSS 3"
+msgstr "Validerad XHTML 1.0 Transitional | Validerad CSS 3"
+
+#: greenpark_2_beta_2/header.php:36
+msgid "Go to homepage"
+msgstr "Gå till hemsidan"
+
+#: greenpark_2_beta_2/header.php:36
+#: greenpark_2_beta_2/header.php:56
+msgid "Home"
+msgstr "Hem"
+
+#: greenpark_2_beta_2/header.php:37
+msgid "Content"
+msgstr "Innehåll"
+
+#: greenpark_2_beta_2/image.php:28
+msgid "You can follow any responses to this entry through the"
+msgstr "Du kan följa svar på detta inlägg via"
+
+#: greenpark_2_beta_2/image.php:28
+msgid "RSS 2.0 Feed"
+msgstr "RSS 2.0-flödet "
+
+#: greenpark_2_beta_2/image.php:32
+msgid "You can"
+msgstr "Du kan"
+
+#: greenpark_2_beta_2/image.php:32
+msgid "leave a response"
+msgstr "lämna en kommentar"
+
+#: greenpark_2_beta_2/image.php:32
+msgid ", or "
+msgstr "eller en"
+
+#: greenpark_2_beta_2/image.php:32
+#: greenpark_2_beta_2/image.php:36
+msgid "trackback"
+msgstr "trackback"
+
+#: greenpark_2_beta_2/image.php:32
+#: greenpark_2_beta_2/image.php:36
+msgid "from your own site"
+msgstr "från din egen sida"
+
+#: greenpark_2_beta_2/image.php:36
+msgid "Responses are currently closed, but you can"
+msgstr "Kommenteringen är avstängd just nu, men du kan lämna en"
+
+#: greenpark_2_beta_2/image.php:40
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Du kan hoppa ner till slutet på sidan för att lämna en kommentar. Pingning är inte tillåten för tillfället."
+
+#: greenpark_2_beta_2/image.php:44
+msgid "Both comments and pings are currently closed."
+msgstr "Både kommentering och pingning är inaktiverat."
+
+#: greenpark_2_beta_2/image.php:46
+#: greenpark_2_beta_2/index-ads.php:12
+#: greenpark_2_beta_2/index.php:12
+#: greenpark_2_beta_2/page.php:9
+msgid "Edit this entry"
+msgstr "Redigera"
+
+#: greenpark_2_beta_2/index-ads.php:9
+#: greenpark_2_beta_2/index.php:9
+msgid "Permanent Link to"
+msgstr "Permanent länk till"
+
+#: greenpark_2_beta_2/links.php:12
+msgid "Links"
+msgstr "Länkar"
+
+#: greenpark_2_beta_2/missing.php:2
+msgid "Not Found"
+msgstr "Kunde inte hittas"
+
+#: greenpark_2_beta_2/missing.php:4
+msgid "Apologies, but we were unable to find what you were looking for. Perhaps  searching will help."
+msgstr "Ledsen, men vi kunde inte hitta vad du letade efter. Kanske en sökning kan hjälpa."
+
+#: greenpark_2_beta_2/missing.php:8
+msgid "Or go to the homepage"
+msgstr "Eller gå till hemsidan"
+
+#: greenpark_2_beta_2/search.php:8
+msgid "Search Results"
+msgstr "Sökresultat"
+
+#: greenpark_2_beta_2/search.php:28
+msgid "No posts found. Try a different search?"
+msgstr "Inga inlägg funna. Vill du försöka med en annan sökning?"
+
+#: greenpark_2_beta_2/sidebar.php:10
+msgid "Latest Tweet"
+msgstr "Tweet från twitter"
+
+#: greenpark_2_beta_2/sidebar.php:13
+msgid "Follow me on twitter"
+msgstr "Följ mig på twitter"
+
+#: greenpark_2_beta_2/sidebar.php:13
+msgid "here"
+msgstr "här"
+
+#: greenpark_2_beta_2/sidebar.php:23
+msgid "Subscribe to my feed - You'll be happy!"
+msgstr "Prenumerera på mitt flöde - Du kommer bli lycklig!"
+
+#: greenpark_2_beta_2/sidebar.php:24
+msgid "Subscribe"
+msgstr "Prenumerera"
+
+#: greenpark_2_beta_2/sidebar.php:25
+msgid "Subscribe to my blogs feed"
+msgstr "Prenumerera på mitt flöde"
+
+#: greenpark_2_beta_2/sidebar.php:61
+msgid "You are currently browsing the archives for the"
+msgstr "Du bläddar just nu i arkivet för"
+
+#: greenpark_2_beta_2/sidebar.php:64
+msgid "You are currently browsing the archives for the day"
+msgstr "Du bläddar just nu i arkivet för datumet"
+
+#: greenpark_2_beta_2/sidebar.php:67
+msgid "You are currently browsing the archives for"
+msgstr "Du bläddrar just nu i arkivet för"
+
+#: greenpark_2_beta_2/sidebar.php:70
+msgid "You are currently browsing the archives for the year"
+msgstr "Du bläddrar just nu i arkivet för året"
+
+#: greenpark_2_beta_2/sidebar.php:73
+msgid "You have searched for"
+msgstr "Du har sökt efter"
+
+#: greenpark_2_beta_2/sidebar.php:74
+msgid "If you are unable to find anything in these search results, you can try one of these links"
+msgstr "Hittar du inte vad du letar efter i dessa sökresultat så kan du försöka med någon av länkarna nedan."
+
+#: greenpark_2_beta_2/sidebar.php:77
+msgid "You are currently browsing the"
+msgstr "Du bläddar just nu i"
+
+#: greenpark_2_beta_2/sidebar.php:77
+msgid "blog archives"
+msgstr "bloggarkivet"
+
+#: greenpark_2_beta_2/sidebar.php:90
+msgid "Pages"
+msgstr "Sidor"
+
+#: greenpark_2_beta_2/sidebar.php:94
+msgid "Archives"
+msgstr "Arkiv"
+
+#: greenpark_2_beta_2/sidebar.php:102
+msgid "Categories"
+msgstr "Kategorier"
+
+#: greenpark_2_beta_2/sidebar.php:118
+msgid "Meta"
+msgstr "Meta"
+
+#: greenpark_2_beta_2/single.php:16
+msgid "Leave a reply"
+msgstr "Lämna en kommentar"
+
+#: greenpark_2_beta_2/single.php:40
+msgid ", or"
+msgstr "eller"
+

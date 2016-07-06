@@ -1,0 +1,27 @@
+Translation Progress
+
+
+Translated templates:
+
+404.php
+ad_middle.php
+archive.php
+archives.php
+comments.php
+footer.php
+functions.php (no translation)
+header.php
+image.php
+index.php
+links.php
+missing.php
+page.php
+search.php
+sidebar.php
+single.php
+
+
+
+ToDo
+
+comments-popup.php
