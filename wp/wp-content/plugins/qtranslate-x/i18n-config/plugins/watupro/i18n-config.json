@@ -1,0 +1,80 @@
+{"vendor":{"plugins/watupro":"1.0"},
+"admin-config": {
+	"watupro_exam": {
+		"pages": { "admin.php": "page=watupro_exam" },
+		"forms": {
+			"examForm":{
+				"fields":{
+					"name": { "jquery": "input[name='name']" },
+					"description": { "jquery": "textarea[name='description']" },
+					"content": { "jquery": "textarea[name='content']" },
+					"email_output": { "jquery": "textarea[name='email_output']" }
+				}
+			}
+		}
+	},
+	"watupro_question": {
+		"pages": { "admin.php": "page=watupro_question" },
+		"forms": {
+			"wtpQuestionForm":{
+				"fields":{
+					"content": { "jquery": "textarea[name='content']" },
+					"answer": { "jquery": "textarea[name^='answer']" },
+					"explain_answer": { "jquery": "textarea[name='explain_answer']" },
+					"hints": { "jquery": "textarea[name='hints']" }
+				}
+			}
+		}
+	},
+	"watupro_edit_choice": {
+		"pages": { "admin.php": "page=watupro_edit_choice" },
+		"forms": {
+			"wtpEditChoice":{
+				"fields":{
+					"answer": { "jquery": "textarea[name='answer']" }
+				}
+			}
+		}
+	},
+	"watupro_grades": {
+		"pages": { "admin.php": "page=(watupro_default_grades|watupro_grades)" },
+		"forms": {
+			"wtpGradesForm":{
+				"fields":{
+					"gtitle": { "jquery": "input[name='gtitle']" }
+				}
+			}
+		}
+	},
+	"watupro_certificate": {
+		"pages": { "admin.php": "page=watupro_certificate" },
+		"forms": {
+			"wtpCertificateForm":{
+				"fields":{
+				}
+			}
+		}
+	},
+	"watupro_question_cats": {
+		"pages": { "admin.php": "page=watupro_question_cats" },
+		"forms": {
+			"watuPROQCatForm":{
+				"fields":{
+					"name": { "jquery": "input[name='name']" },
+					"description": { "jquery": "textarea[name='description']" }
+				}
+			}
+		}
+	},
+	"watupro_options": {
+		"pages": { "admin.php": "page=watupro_options" },
+		"forms": {
+			"watuOptionsForm":{
+				"fields":{
+					"other_payments": { "jquery": "input[name='other_payments']" }
+				}
+			}
+		}
+	}
+}
+}

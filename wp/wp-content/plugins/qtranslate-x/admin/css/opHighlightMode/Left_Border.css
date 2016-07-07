@@ -1,0 +1,4 @@
+/* Left Border */
+input.qtranxs-translatable, textarea.qtranxs-translatable, div.qtranxs-translatable {
+box-shadow: -3px 0 #Color2 !important;
+}

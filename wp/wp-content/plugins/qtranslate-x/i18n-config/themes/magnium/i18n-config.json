@@ -1,0 +1,15 @@
+{"vendor":{"themes/magnium":"1.0"},
+"admin-config": {
+	"ipanel-magnium": {
+		"pages": { "admin.php": "page=ipanel_MAGNIUM_PANEL" },
+		"anchors": { "IPANEL": {"where": "before after"} },
+		"forms": {
+			"main":{
+				"fields":{
+					"wp-editor-area": { "jquery": ".wp-editor-area" }
+				}
+			}
+		}
+	}
+}
+}

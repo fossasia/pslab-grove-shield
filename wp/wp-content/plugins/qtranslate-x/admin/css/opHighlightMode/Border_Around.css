@@ -1,0 +1,7 @@
+/* Border Around */
+input.qtranxs-translatable, textarea.qtranxs-translatable, div.qtranxs-translatable {
+outline: 2px solid #Color2 !important;
+}
+div.qtranxs-translatable div.mce-panel {
+margin-top: 2px
+}

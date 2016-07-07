@@ -1,6 +1,8 @@
 <div id="sidebar">
 	<ul class="sb-list clearfix">
 
+<li id="qtranslate-3" class="widget widget_qtranslate"><ul class="qtrans_language_chooser" id="qtranslate-3-chooser"><li><a href="?&amp;lang=en" hreflang="en"><span>English</span></a></li><li><a href="?page_id=2&lang=vi" hreflang="vi"><span>Tiếng Việt</span></a></li></ul><div class="qtrans_widget_end"></div></li>
+
 <li id="about" class="clearfix">
   <div class="sb-title">About</div>
   <ul>

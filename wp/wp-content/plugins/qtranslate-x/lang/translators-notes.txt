@@ -1,0 +1,17 @@
+General instructions for translators:
+https://qtranslatexteam.wordpress.com/translators/
+
+PO files can be downloaded from:
+https://github.com/qTranslate-Team/qtranslate-x/tree/master/lang
+
+Translators may use WordPress translation service:
+https://translate.wordpress.org/projects/wp-plugins/qtranslate-x
+
+Translators may also use Transifex:
+https://www.transifex.com/qtranslatexteam/qtranslate-x/
+
+Subfolder 'language-names' contains translations of other language names, which are in used in "Not Available Message".
+You may wish to modify the translations of foreign language names to fit the grammar rules of your language in "Not Available Message".
+Please, contact [qTranslate Team](https://qtranslatexteam.wordpress.com/contact-us/) then to report which modifications should be made.
+
+For developers, to integrate Transifex: http://docs.transifex.com/client/

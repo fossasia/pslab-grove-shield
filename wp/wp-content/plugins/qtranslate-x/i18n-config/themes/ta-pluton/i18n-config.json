@@ -1,0 +1,57 @@
+{"vendor":{"themes/ta-pluton":"1.0"},
+"admin-config": {
+	"theme-panel": {
+		"pages": { "admin.php": "page=_options&tab=" },
+		"anchors": { "redux_ajax_overlay": {"where": "after"} },
+		"forms": {
+			"redux-form-wrapper":{
+				"fields":{
+					"slides-title": { "jquery": "input[id^='slides-title_']" },
+					"slides-subtitle": { "jquery": "input[id^='slides-subtitle_']" },
+					"slides-description": { "jquery": "input[id^='slides-description_']" },
+					"service_slides-title": { "jquery": "input[id^='service_slides-title_']" },
+					"service_slides-subtitle": { "jquery": "input[id^='service_slides-subtitle_']" },
+					"about_us_slides-title": { "jquery": "input[id^='about_us_slides-title_']" },
+					"about_us_slides-subtitle": { "jquery": "input[id^='about_us_slides-subtitle_']" },
+					"about_us_slides-description": { "jquery": "input[id^='about_us_slides-description_']" },
+					"skill_slides-title": { "jquery": "input[id^='skill_slides-title_']" },
+					"skill_slides-subtitle": { "jquery": "input[id^='skill_slides-subtitle_']" },
+					"client_slides-title": { "jquery": "input[id^='client_slides-title_']" },
+					"client_slides-subtitle": { "jquery": "input[id^='client_slides-subtitle_']" },
+					"client_slides-description": { "jquery": "input[id^='client_slides-description_']" },
+					"clients_slides-title": { "jquery": "input[id^='clients_slides-title_']" },
+					"clients_slides-subtitle": { "jquery": "input[id^='clients_slides-subtitle_']" },
+					"service_title":{},
+					"service_tagline":{},
+					"portfolio_title":{},
+					"portfolio_tagline":{},
+					"about_us_title":{},
+					"about_us_tagline":{},
+					"textarea_title":{},
+					"atextarea_tagline":{},
+					"skill_title":{},
+					"call_title":{},
+					"call_btn_title":{},
+					"call_btn_url":{},
+					"client_title":{},
+					"client_tagline":{},
+					"clients_title":{},
+					"blog_title":{},
+					"blog_tagline":{},
+					"newsletter_title":{},
+					"newsletter_tagline":{},
+					"contact_title":{},
+					"contact_tagline":{},
+					"address":{},
+					"social_title":{},
+					"custom_copyright":{},
+					"redux-slides-header-display":{"jquery":".redux-slides-header", "encode":"display"}
+				}
+			}
+		},
+		"js-exec": {
+			"redux-slides-header-update":{"javascript":"jQuery(document).ready( function(){ qTranslateConfig.qtx.addLanguageSwitchAfterListener( function(){ jQuery('.slide-title').each(function(i,e){ var t = e.value; if(!t) return; jQuery(e).parents().eq( 3 ).find( '.redux-slides-header' ).text( t ); }); }); });"}
+		}
+	}
+}
+}

@@ -1,0 +1,33 @@
+/* Language Switching Buttons as Tabs in Black Block */
+
+.qtranxs-lang-switch-wrap
+{
+	margin: 0;
+}
+
+.qtranxs-lang-switch
+{
+	padding: 3px 8px 5px 8px;
+	margin: 6px 4px 0 4px;
+	display: inline-block;
+}
+
+.qtranxs-lang-switch
+{
+	cursor: pointer;
+}
+ 
+.qtranxs-lang-switch>*
+{
+	vertical-align: middle;
+	margin-right: 4px;
+}
+
+.qtranxs-lang-switch *
+{
+	vertical-align: middle;
+}
+
+.qtranxs-lang-switch img {
+	margin-right: 4px;
+}

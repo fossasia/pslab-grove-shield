@@ -1,0 +1,275 @@
+{"vendor":{"plugins/events-made-easy":"1.0"},
+"admin-config":{
+"events-manager":{
+	"pages": { "admin.php": "page=events-manager&eme_admin_action=edit_event|page=events-manager&eme_admin_action=edit_recurrence|page=eme-new_event" },
+	"anchors": {
+		"titlediv": {
+			"where": "before"
+		},
+		"div_event_notes": {
+			"where": "before"
+		}
+	},
+	"forms": {
+		"eventForm": {
+			"fields": {
+				"title": {
+					"encode": "["
+				},
+				"content": {
+					"encode": "<"
+				},
+				"event_page_title_format": [],
+				"event_single_event_format": [],
+				"event_contactperson_email_body": [],
+				"event_registration_recorded_ok_html": [],
+				"event_registration_updated_email_body": [],
+				"event_cancel_form_format": [],
+				"event_registration_form_format": [],
+				"event_respondent_email_body": [],
+				"event_registration_pending_email_body": []
+			}
+		}
+	}
+},
+"edit_location":{
+	"pages": { "admin.php": "page=eme-locations&eme_admin_action=edit_location" },
+	"anchors": {
+		"titlediv": {
+			"where": "before"
+		},
+		"loc_description": {
+			"where": "before"
+		}
+	},
+	"forms": {
+		"editloc": {
+			"fields": {
+				"title": [],
+				"content": [],
+				"location_address": [],
+				"location_town": []
+			}
+		}
+	}
+},
+"eme-categories":{
+	"pages": { "admin.php": "page=eme-categories$" },
+	"anchors": {
+		"col-container": {
+			"where": "before"
+		}
+	},
+	"forms": {
+		"add": {
+			"fields": {
+				"category_name": [],
+				"description": []
+			}
+		}
+	}
+},
+"edit_category":{
+	"pages": { "admin.php": "page=eme-categories&eme_admin_action=edit_category" },
+	"anchors": {
+		"category_name": {
+			"where": "before"
+		}
+	},
+	"forms": {
+		"edit_category": {
+			"fields": {
+				"category_name": [],
+				"description": []
+			}
+		}
+	}
+},
+"edit_template":{
+	"pages": { "admin.php": "page=eme-templates&eme_admin_action=edit_template" },
+	"anchors": {
+		"description": {
+			"where": "before"
+		}
+	},
+	"forms": {
+		"edit_template": {
+			"fields": {
+				"description": [],
+				"format": []
+			}
+		}
+	}
+},
+"edit_formfield":{
+	"pages": { "admin.php": "page=eme-formfields&eme_admin_action=edit_formfield" },
+	"anchors": {
+		"field_name": {
+			"where": "before"
+		}
+	},
+	"forms": {
+		"edit_formfield": {
+			"fields": {
+				"field_name": [],
+				"field_info": [],
+				"field_tags": []
+			}
+		}
+	}
+},
+"eme-send-mails":{
+	"pages": { "admin.php": "page=eme-send-mails" },
+	"anchors": {
+		"subject": {
+			"where": "before"
+		}
+	},
+	"forms": {
+		"send_mail": {
+			"fields": {
+				"mail_subject": [],
+				"mail_message": []
+			}
+		}
+	}
+},
+"eme-options-events":{
+	"pages": { "admin.php": "page=eme-options&tab=events" },
+	"forms": {
+		"eme_options_form": {
+			"fields": {
+				"eme_event_list_item_format_header": [],
+				"eme_event_list_item_format": [],
+				"eme_event_list_item_format_footer": [],
+				"eme_event_page_title_format": [],
+				"eme_event_html_title_format": [],
+				"eme_single_event_format": [],
+				"eme_events_page_title": [],
+				"eme_no_events_message": [],
+				"eme_filter_form_format": []
+			}
+		}
+	}
+},
+"eme-options-locations":{
+	"pages": { "admin.php": "page=eme-options&tab=locations" },
+	"forms": {
+		"eme_options_form": {
+			"fields": {
+				"eme_location_list_format_header": [],
+				"eme_location_list_format_item": [],
+				"eme_location_list_format_footer": [],
+				"eme_location_page_title_format": [],
+				"eme_location_html_title_format": [],
+				"eme_single_location_format": [],
+				"eme_location_baloon_format": [],
+				"eme_location_event_list_item_format": [],
+				"eme_location_no_events_message": []
+			}
+		}
+	}
+},
+"eme-options-calendar":{
+	"pages": { "admin.php": "page=eme-options&tab=calendar" },
+	"forms": {
+		"eme_options_form": {
+			"fields": {
+				"eme_small_calendar_event_title_format": [],
+				"eme_full_calendar_event_format": []
+			}
+		}
+	}
+},
+"eme-options-rss":{
+	"pages": { "admin.php": "page=eme-options&tab=rss"},
+	"forms": {
+		"eme_options_form": {
+			"fields": {
+				"eme_rss_main_title": [],
+				"eme_rss_main_description": [],
+				"eme_rss_title_format": [],
+				"eme_rss_description_format": [],
+				"eme_ical_title_format": [],
+				"eme_ical_description_format": []
+			}
+		}
+	}
+},
+"eme-options-rsvp":{
+	"pages": { "admin.php": "page=eme-options&tab=rsvp" },
+	"forms": {
+		"eme_options_form": {
+			"fields": {
+				"eme_rsvp_addbooking_submit_string": [],
+				"eme_rsvp_delbooking_submit_string": [],
+				"eme_attendees_list_format": [],
+				"eme_bookings_list_header_format": [],
+				"eme_bookings_list_format": [],
+				"eme_bookings_list_footer_format": [],
+				"eme_registration_recorded_ok_html": [],
+				"eme_registration_form_format": [],
+				"eme_cancel_form_format": []
+			}
+		}
+	}
+},
+"eme-options-mail":{
+	"pages": { "admin.php": "page=eme-options&tab=mail" },
+	"forms": {
+		"eme_options_form": {
+			"fields": {
+				"eme_contactperson_email_subject": [],
+				"eme_contactperson_email_body": [],
+				"eme_contactperson_cancelled_email_subject": [],
+				"eme_contactperson_cancelled_email_body": [],
+				"eme_contactperson_pending_email_subject": [],
+				"eme_contactperson_pending_email_body": [],
+				"eme_respondent_email_subject": [],
+				"eme_respondent_email_body": [],
+				"eme_registration_pending_email_subject": [],
+				"eme_registration_pending_email_body": [],
+				"eme_registration_cancelled_email_subject": [],
+				"eme_registration_cancelled_email_body": [],
+				"eme_registration_denied_email_subject": [],
+				"eme_registration_denied_email_body": [],
+				"eme_registration_updated_email_subject": [],
+				"eme_registration_updated_email_body": []
+			}
+		}
+	}
+},
+"eme-options-payments":{
+	"pages": { "admin.php": "page=eme-options&tab=payments" },
+	"forms": {
+		"eme_options_form": {
+			"fields": {
+				"eme_payment_form_header_format": [],
+				"eme_payment_form_footer_format": [],
+				"eme_multipayment_form_header_format": [],
+				"eme_multipayment_form_footer_format": [],
+				"eme_payment_fail_format": [],
+				"eme_paypal_button_label": [],
+				"eme_paypal_button_above": [],
+				"eme_paypal_button_below": [],
+				"eme_2co_button_label": [],
+				"eme_2co_button_above": [],
+				"eme_2co_button_below": [],
+				"eme_webmoney_button_label": [],
+				"eme_webmoney_button_above": [],
+				"eme_webmoney_button_below": [],
+				"eme_fdgg_button_label": [],
+				"eme_fdgg_button_above": [],
+				"eme_fdgg_button_below": [],
+				"eme_mollie_button_label": [],
+				"eme_mollie_button_above": [],
+				"eme_mollie_button_below": [],
+				"eme_sagepay_button_label": [],
+				"eme_sagepay_button_above": [],
+				"eme_sagepay_button_below": []
+			}
+		}
+	}
+}
+}
+}

@@ -1,0 +1,74 @@
+{"vendor":{"themes/eventor":"1.0"},
+"admin-config": {
+"eventor-post": {
+	"pages": { "post.php": "", "post-new.php": "" },
+	"post_type":"speaker",
+	"forms":{
+		"main":{
+			"fields":{
+				"tk_title_info":{}
+			}
+		}
+	}
+},
+"eventor-theme-settings-general": {
+	"pages": { "admin.php": "page=theme-settings(&updated=true)?(&tab=general|)" },
+	"forms":{
+		"main":{
+			"fields":{
+				"footer_copy":{}
+			}
+		}
+	}
+},
+"eventor-theme-settings-home": {
+	"pages": { "admin.php": "page=theme-settings(&updated=true)?&tab=home" },
+	"forms":{
+		"main":{
+			"fields":{
+				"call_to_action_title":{},
+				"call_to_action_undertitle":{},
+				"call_to_action_text":{},
+				"call_to_action_button_text":{},
+				"call_to_action_button_url":{}
+			}
+		}
+	}
+},
+"eventor-theme-settings-contact": {
+	"pages": { "admin.php": "page=theme-settings(&updated=true)?&tab=contact" },
+	"forms":{
+		"main":{
+			"fields":{
+				"contact_subject":{},
+				"name_error_message":{},
+				"email_error_message":{},
+				"message_error_message":{},
+				"message_successful":{},
+				"message_unsuccessful":{}
+			}
+		}
+	}
+}
+},
+"front-config": {
+"eventor-messages": {
+	"filters": {
+		"text": {
+			"option_eventor_general_footer_copy":"20",
+			"option_eventor_contact_subject":"20",
+			"option_eventor_contact_marker_title":"20",
+			"option_eventor_contact_subject_error_message":"20",
+			"option_eventor_contact_name_error_message":"20",
+			"option_eventor_contact_email_error_message":"20",
+			"option_eventor_contact_message_error_message":"20",
+			"option_eventor_contact_message_successful":"20",
+			"option_eventor_contact_message_unsuccessful":"20",
+			"option_eventor_contact_phone_error":"20",
+			"option_eventor_contact_date_error":"20",
+			"option_eventor_contact_doctor_error":"20"
+		}
+	}
+}
+}
+}

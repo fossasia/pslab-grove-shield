@@ -33,12 +33,12 @@ if (top.location != self.location) top.location = self.location;
 <div id="header" class="clearfix">
 
 	<ul id="accessibility">
-		<li><a href="<?php echo get_option('home'); ?>/" title="<?php _e('Go to homepage', 'default'); ?>"><?php _e('Home', 'default'); ?></a></li>
-		<li><a href="#content" title="Skip to content"><?php _e('Content', 'default'); ?></a></li>
+		<li><a href="<?php echo get_option('home'); ?>/" title="<?php _e('Go to homepage', 'default'); ?>"><?php _e('[:en]Home[:vi]Trang chủ[:]', 'default'); ?></a></li>
+		<li><a href="#content" title="Skip to content"><?php _e('[:en]Content[:vi]Nội dung[:]', 'default'); ?></a></li>
 		<li><a href="<?php if (get_option('greenpark2_feed_enable') == 'yes') { echo 'http://feeds.feedburner.com/' . get_option('greenpark2_feed_uri'); } else { echo get_bloginfo('rss2_url'); }?>">RSS</a></li>
 		<?php wp_meta(); ?>
 		<?php wp_register(); ?>
-		<li class="last-item"><?php wp_loginout(); ?></li>
+		<li class="last-item"><a href="wp-login.php"><?php _e('[:en]Log in[:vi]Đăng nhập[:]', 'default'); ?></a></li>
 	</ul>
 
 	<div id="branding">
@@ -53,7 +53,7 @@ if (top.location != self.location) top.location = self.location;
 			<?php get_search_form(); ?>
 		</div>
 		<ul id="menu">
-  		<li class="page-item-home <?php if ( is_home() ) { ?> current_page_item <?php } ?>"><a href="<?php echo get_option('home'); ?>/"><?php _e('Home', 'default'); ?></a></li>
+  		<li class="page-item-home <?php if ( is_home() ) { ?> current_page_item <?php } ?>"><a href="<?php echo get_option('home'); ?>/"><?php _e('[:en]Home[:vi]Trang chủ[:]', 'default'); ?></a></li>
   		<?php greenpark_globalnav() ?>
 		</ul>
     <div id="submenu-bg">    

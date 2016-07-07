@@ -1,0 +1,180 @@
+{"vendor":{"plugins/qtranslate-x":"3.4"},
+"admin-config":{
+"post":{
+	"pages":{"post.php":"", "post-new.php":""},
+	"anchors":{"post-body-content":{"where":"first last"}},
+	"forms":{
+		"post":{
+			"fields":{
+				"title":{},
+				"excerpt":{},
+				"attachment_caption":{},
+				"attachment_alt":{},
+				"view-post-btn":{"encode":"display"},
+				"wp-editor-area":{"jquery":".wp-editor-area"},
+				"gallery-caption":{"jquery":".gallery-caption", "encode":"none"},
+				"wp-caption-text":{"jquery":".wp-caption-text", "encode":"display"}
+			}
+		},
+		"wpbody-content":{
+			"fields":{
+				"wrap-h1":{"jquery":".wrap h1", "encode":"display"},
+				"wrap-h2":{"jquery":".wrap h2", "encode":"display"}
+			}
+		}
+	},
+	"js-exec":{"post-exec":{"src":"./admin/js/post-exec.min.js"}}
+}
+,
+"options-general":{
+	"preg_delimiter":"#",
+	"pages":{"options-general.php":"^(?!.*page=[^=&]+).*$"},
+	"forms":{
+		"options":{
+			"fields":{
+				"blogname":{},
+				"blogdescription":{},
+				"head-title":{"jquery":"head title", "encode":"display"}
+			}
+		}
+	}
+}
+,
+"widgets":{
+	"pages":{"widgets.php":""},
+	"anchors":{"widgets-right":{"where":"before after"}},
+	"forms":{
+		"widgets-right":{
+			"fields":{
+				"widget-title":{"jquery":"input[id^='widget-'][id$='-title']"},
+				"widget-text-text":{"jquery":"textarea[id^='widget-text-'][id$='-text']"},
+				"in-widget-title":{"jquery":"span.in-widget-title", "encode":"display"}
+			}
+		}
+	},
+	"js-exec":{"widgets-exec":{"src":"./admin/js/widgets-exec.min.js"}}
+}
+,
+"edit-tag":{
+	"pages":{"term.php":"","edit-tags.php":"action=edit"},
+	"forms":{
+		"edittag":{
+			"fields":{
+				"name":{},
+				"description":{},
+				"parent":{ "encode":"display" }
+			}
+		}
+	},
+	"js-exec":{"edit-tag-exec":{"src":"./admin/js/edit-tag-exec.min.js"}}
+}
+,
+"edit-tags":{
+	"preg_delimiter":"#",
+	"pages":{"edit-tags.php":"^(?!.*action=edit).*$"},
+	"anchors":{
+		"posts-filter":{"where":"before after"}
+	},
+	"forms":{
+		"addtag":{
+			"fields":{
+				"tag-name":{},
+				"tag-description":{},
+				"parent":{"encode":"display"}
+			}
+		},
+		"col-left":{
+			"fields":{
+				"tagcloud":{"jquery":".tagcloud > a", "encode":"display"}
+			}
+		},
+		"the-list":{
+			"fields":{
+				"row-title":{"jquery":".row-title", "encode":"display"},
+				"description":{"jquery":".description", "encode":"display"}
+			}
+		}
+	},
+	"js-exec":{"edit-tags-exec":{"src":"./admin/js/edit-tags-exec.min.js"}}
+}
+,
+"nav-menus":{
+	"pages":{"nav-menus.php":"action=edit|menu=\\d+|^$"},
+	"anchors":{"menu-to-edit":{"where":"before after"}},
+	"forms":{
+		"update-nav-menu":{
+			"fields":{
+				"title":{"jquery":"[id^=edit-menu-item-title-]"},
+				"attr-title":{"jquery":"[id^=edit-menu-item-attr-title-]"},
+				"description":{"jquery":"[id^=edit-menu-item-description-]"},
+				"span.title":{"jquery":"span.menu-item-title", "encode":"display"},
+				"link-to-original":{"jquery":".link-to-original >a", "encode":"display"}
+			}
+		},
+		"side-sortables":{
+			"fields":{
+				"label.title":{"jquery":"label.menu-item-title", "encode":"display"},
+				"accordion-section-title":{"jquery":"h3.accordion-section-title", "encode":"display"}
+			}
+		}
+	},
+	"js-exec":{"nav-menus-exec":{"src":"./admin/js/nav-menus-exec.min.js"}}
+}
+,
+"all-pages":{
+	"filters":{
+		"text":{ "admin_title":"20" }
+	}
+}
+}
+,
+"front-config":{
+"all-pages":{
+	"filters":{
+		"text":{
+			"widget_title":"20",
+			"widget_text":"20",
+			"the_title":"20",
+			"category_description":"20",
+			"list_cats":"20",
+			"wp_dropdown_cats":"20",
+			"term_name":"20",
+			"get_comment_author":"20",
+			"the_author":"20",
+			"tml_title":"20",
+			"term_description":"20"
+		},
+		"term":{
+			"cat_row":"0",
+			"cat_rows":"0",
+			"wp_get_object_terms":"0",
+			"single_cat_title":"0",
+			"single_tag_title":"0",
+			"single_term_title":"0",
+			"the_category":"0",
+			"get_term":"0",
+			"get_terms":"0",
+			"get_category":"0"
+		},
+		"url":{
+			"author_feed_link":"10",
+			"author_link":"10",
+			"get_comment_author_url_link":"10",
+			"post_comments_feed_link":"10",
+			"day_link":"10",
+			"month_link":"10",
+			"year_link":"10",
+			"page_link":"10",
+			"post_link":"10",
+			"category_link":"10",
+			"category_feed_link":"10",
+			"tag_link":"10",
+			"term_link":"10",
+			"the_permalink":"10",
+			"feed_link":"10",
+			"tag_feed_link":"10"
+		}
+	}
+}
+}
+}
