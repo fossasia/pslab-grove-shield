@@ -13,6 +13,8 @@ The goal of PSLab is to create an Open Source hardware device (open on all layer
 
 The Grove open hardware project was started by Seeed Studio. The goal is to make it easier to connect, experiment, and simplify the prototyping process. No jumpers or soldering required. There are more than 300 Grove modules, covering a wide range of applications that can fulfill a variety of needs. The documentation for Grove shields is here: https://wiki.seeedstudio.com/Grove/
 
+![PSLab Grove Shield](/docs/images/pslab-grove-shield.png "PSLab Grove Shield")
+
 ## Buy
 
 * You can get a Pocket Science Lab device from the [FOSSASIA Shop](https://fossasia.com). The PSLab Grove shield will be available here in future as well.
@@ -38,7 +40,8 @@ The Grove open hardware project was started by Seeed Studio. The goal is to make
 
 ## Features
 
-* [to be added]
+* Grove pins
+* Connect sensors easily
 
 ## Parts List
 
