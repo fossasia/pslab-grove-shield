@@ -1,0 +1,442 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title "PSLab"
+Date "2018-12-29"
+Rev "v5.1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 5510 7060 2    40   Input ~ 0
+PVS1
+Text GLabel 5510 6860 2    40   Input ~ 0
+PVS2
+Text GLabel 5510 6660 2    40   Input ~ 0
+PVS3
+Text GLabel 5510 6460 2    40   Input ~ 0
+PCS
+$Comp
+L PSLab-rescue:C-RESCUE-proto1 C7
+U 1 1 55638F6F
+P 2125 5550
+AR Path="/55638F6F" Ref="C7"  Part="1" 
+AR Path="/54260FB5/55638F6F" Ref="C7"  Part="1" 
+F 0 "C7" H 2125 5650 40  0000 L CNN
+F 1 "10nF" H 2131 5465 40  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2163 5400 30  0001 C CNN
+F 3 "" H 2125 5550 60  0000 C CNN
+	1    2125 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSLab-rescue:C-RESCUE-proto1 C6
+U 1 1 5563B5F7
+P 1425 5250
+AR Path="/5563B5F7" Ref="C6"  Part="1" 
+AR Path="/54260FB5/5563B5F7" Ref="C6"  Part="1" 
+F 0 "C6" H 1425 5350 40  0000 L CNN
+F 1 "10u" H 1431 5165 40  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1463 5100 30  0001 C CNN
+F 3 "" H 1425 5250 60  0000 C CNN
+	1    1425 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PSLab-rescue:C-RESCUE-proto1 C35
+U 1 1 5563C456
+P 3100 4750
+AR Path="/5563C456" Ref="C35"  Part="1" 
+AR Path="/54260FB5/5563C456" Ref="C35"  Part="1" 
+F 0 "C35" H 3100 4850 40  0000 L CNN
+F 1 "0.1u" H 3106 4665 40  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3138 4600 30  0001 C CNN
+F 3 "" H 3100 4750 60  0000 C CNN
+	1    3100 4750
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3300 4750 2    40   Input ~ 0
+V+
+Text GLabel 3300 5550 2    40   Input ~ 0
+V-
+$Comp
+L PSLab-rescue:R-RESCUE-proto1 R42
+U 1 1 55B80C5B
+P 2375 4525
+AR Path="/55B80C5B" Ref="R42"  Part="1" 
+AR Path="/54260FB5/55B80C5B" Ref="R42"  Part="1" 
+F 0 "R42" V 2300 4525 40  0000 C CNN
+F 1 "10K" V 2382 4526 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2305 4525 30  0001 C CNN
+F 3 "" H 2375 4525 30  0000 C CNN
+	1    2375 4525
+	0    -1   1    0   
+$EndComp
+$Comp
+L PSLab-rescue:R-RESCUE-proto1 R43
+U 1 1 55B80C68
+P 1875 5250
+AR Path="/55B80C68" Ref="R43"  Part="1" 
+AR Path="/54260FB5/55B80C68" Ref="R43"  Part="1" 
+F 0 "R43" V 1800 5250 40  0000 C CNN
+F 1 "5K1" V 1882 5251 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1805 5250 30  0001 C CNN
+F 3 "" H 1875 5250 30  0000 C CNN
+	1    1875 5250
+	0    -1   1    0   
+$EndComp
+$Comp
+L PSLab-rescue:C-RESCUE-proto1 C38
+U 1 1 55B80C75
+P 3100 5550
+AR Path="/55B80C75" Ref="C38"  Part="1" 
+AR Path="/54260FB5/55B80C75" Ref="C38"  Part="1" 
+F 0 "C38" H 3100 5650 40  0000 L CNN
+F 1 "0.1u" H 3106 5465 40  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3138 5400 30  0001 C CNN
+F 3 "" H 3100 5550 60  0000 C CNN
+	1    3100 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PSLab-rescue:C-RESCUE-proto1 C30
+U 1 1 55B80C8A
+P 2625 4895
+AR Path="/55B80C8A" Ref="C30"  Part="1" 
+AR Path="/54260FB5/55B80C8A" Ref="C30"  Part="1" 
+F 0 "C30" H 2625 4995 40  0000 L CNN
+F 1 "1nF" H 2631 4810 40  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2663 4745 30  0001 C CNN
+F 3 "" H 2625 4895 60  0000 C CNN
+	1    2625 4895
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSLab-rescue:R-RESCUE-proto1 R41
+U 1 1 55B8CB73
+P 2375 5250
+AR Path="/55B8CB73" Ref="R41"  Part="1" 
+AR Path="/54260FB5/55B8CB73" Ref="R41"  Part="1" 
+F 0 "R41" V 2455 5250 40  0000 C CNN
+F 1 "5K1" V 2382 5251 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2305 5250 30  0001 C CNN
+F 3 "" H 2375 5250 30  0000 C CNN
+	1    2375 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L PSLab-rescue:TL082-RESCUE-proto1 U13
+U 2 1 55C273D0
+P 3400 5150
+AR Path="/55C273D0" Ref="U13"  Part="2" 
+AR Path="/54260FB5/55C273D0" Ref="U13"  Part="2" 
+F 0 "U13" H 3350 5350 60  0000 L CNN
+F 1 "TL082" H 3350 4900 60  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 3400 5150 60  0001 C CNN
+F 3 "" H 3400 5150 60  0000 C CNN
+	2    3400 5150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1225 5250 0    40   Input ~ 0
+SQ4
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR071
+U 1 1 55C3CD4E
+P 2125 5750
+AR Path="/55C3CD4E" Ref="#PWR071"  Part="1" 
+AR Path="/54260FB5/55C3CD4E" Ref="#PWR071"  Part="1" 
+F 0 "#PWR071" H 2125 5750 30  0001 C CNN
+F 1 "GND" H 2125 5680 30  0001 C CNN
+F 2 "" H 2125 5750 60  0000 C CNN
+F 3 "" H 2125 5750 60  0000 C CNN
+	1    2125 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR072
+U 1 1 55C3D098
+P 2900 5050
+AR Path="/55C3D098" Ref="#PWR072"  Part="1" 
+AR Path="/54260FB5/55C3D098" Ref="#PWR072"  Part="1" 
+F 0 "#PWR072" H 2900 5050 30  0001 C CNN
+F 1 "GND" H 2900 4980 30  0001 C CNN
+F 2 "" H 2900 5050 60  0000 C CNN
+F 3 "" H 2900 5050 60  0000 C CNN
+	1    2900 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR073
+U 1 1 55C3F836
+P 2900 5550
+AR Path="/55C3F836" Ref="#PWR073"  Part="1" 
+AR Path="/54260FB5/55C3F836" Ref="#PWR073"  Part="1" 
+F 0 "#PWR073" H 2900 5550 30  0001 C CNN
+F 1 "GND" H 2900 5480 30  0001 C CNN
+F 2 "" H 2900 5550 60  0000 C CNN
+F 3 "" H 2900 5550 60  0000 C CNN
+	1    2900 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR074
+U 1 1 55C3FA2B
+P 2900 4750
+AR Path="/55C3FA2B" Ref="#PWR074"  Part="1" 
+AR Path="/54260FB5/55C3FA2B" Ref="#PWR074"  Part="1" 
+F 0 "#PWR074" H 2900 4750 30  0001 C CNN
+F 1 "GND" H 2900 4680 30  0001 C CNN
+F 2 "" H 2900 4750 60  0000 C CNN
+F 3 "" H 2900 4750 60  0000 C CNN
+	1    2900 4750
+	0    1    1    0   
+$EndComp
+Text GLabel 3900 5150 2    40   Input ~ 0
+SINE1
+Wire Wire Line
+	2125 4525 2125 5250
+Wire Wire Line
+	2625 5250 2900 5250
+Wire Wire Line
+	2625 4525 3900 4525
+Text GLabel 6180 7060 2    40   Input ~ 0
+SINE1
+Wire Wire Line
+	3900 4525 3900 5150
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR081
+U 1 1 55EF8D0A
+P 6515 6985
+AR Path="/55EF8D0A" Ref="#PWR081"  Part="1" 
+AR Path="/54260FB5/55EF8D0A" Ref="#PWR081"  Part="1" 
+F 0 "#PWR081" H 6515 6985 30  0001 C CNN
+F 1 "GND" H 6515 6915 30  0001 C CNN
+F 2 "" H 6515 6985 60  0000 C CNN
+F 3 "" H 6515 6985 60  0000 C CNN
+	1    6515 6985
+	-1   0    0    -1  
+$EndComp
+Text GLabel 6180 6960 2    40   Input ~ 0
+SINE2
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR084
+U 1 1 564DC510
+P 1625 5750
+AR Path="/564DC510" Ref="#PWR084"  Part="1" 
+AR Path="/54260FB5/564DC510" Ref="#PWR084"  Part="1" 
+F 0 "#PWR084" H 1625 5750 30  0001 C CNN
+F 1 "GND" H 1625 5680 30  0001 C CNN
+F 2 "" H 1625 5750 60  0000 C CNN
+F 3 "" H 1625 5750 60  0000 C CNN
+	1    1625 5750
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	550  4175 550  7450
+Text Notes 570  4280 0    60   ~ 0
+Sine Wave generator filters (Simulated for 5Hz to 5KHz at Okawa-Denshi)
+Wire Notes Line
+	550  7450 6760 7450
+$Comp
+L PSLab-rescue:TEST TP1
+U 1 1 5A5736C0
+P 4670 6325
+AR Path="/5A5736C0" Ref="TP1"  Part="1" 
+AR Path="/54260FB5/5A5736C0" Ref="TP1"  Part="1" 
+F 0 "TP1" H 4670 6625 50  0000 C BNN
+F 1 "TEST" H 4670 6575 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4670 6325 50  0001 C CNN
+F 3 "" H 4670 6325 50  0001 C CNN
+	1    4670 6325
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSLab-rescue:TEST TP2
+U 1 1 5A5737F7
+P 4925 6320
+AR Path="/5A5737F7" Ref="TP2"  Part="1" 
+AR Path="/54260FB5/5A5737F7" Ref="TP2"  Part="1" 
+F 0 "TP2" H 4925 6620 50  0000 C BNN
+F 1 "TEST" H 4925 6570 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4925 6320 50  0001 C CNN
+F 3 "" H 4925 6320 50  0001 C CNN
+	1    4925 6320
+	1    0    0    -1  
+$EndComp
+Text GLabel 4670 6325 3    60   Input ~ 0
+V-
+Text GLabel 4925 6320 3    60   Input ~ 0
+V+
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR085
+U 1 1 5A581A00
+P 5510 6560
+AR Path="/5A581A00" Ref="#PWR085"  Part="1" 
+AR Path="/54260FB5/5A581A00" Ref="#PWR085"  Part="1" 
+F 0 "#PWR085" H 5510 6560 30  0001 C CNN
+F 1 "GND" H 5510 6490 30  0001 C CNN
+F 2 "" H 5510 6560 60  0000 C CNN
+F 3 "" H 5510 6560 60  0000 C CNN
+	1    5510 6560
+	0    -1   1    0   
+$EndComp
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR086
+U 1 1 5A58391A
+P 5510 6760
+AR Path="/5A58391A" Ref="#PWR086"  Part="1" 
+AR Path="/54260FB5/5A58391A" Ref="#PWR086"  Part="1" 
+F 0 "#PWR086" H 5510 6760 30  0001 C CNN
+F 1 "GND" H 5510 6690 30  0001 C CNN
+F 2 "" H 5510 6760 60  0000 C CNN
+F 3 "" H 5510 6760 60  0000 C CNN
+	1    5510 6760
+	0    -1   1    0   
+$EndComp
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR087
+U 1 1 5A583BED
+P 5510 6960
+AR Path="/5A583BED" Ref="#PWR087"  Part="1" 
+AR Path="/54260FB5/5A583BED" Ref="#PWR087"  Part="1" 
+F 0 "#PWR087" H 5510 6960 30  0001 C CNN
+F 1 "GND" H 5510 6890 30  0001 C CNN
+F 2 "" H 5510 6960 60  0000 C CNN
+F 3 "" H 5510 6960 60  0000 C CNN
+	1    5510 6960
+	0    -1   1    0   
+$EndComp
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR088
+U 1 1 5A583CE5
+P 5510 6360
+AR Path="/5A583CE5" Ref="#PWR088"  Part="1" 
+AR Path="/54260FB5/5A583CE5" Ref="#PWR088"  Part="1" 
+F 0 "#PWR088" H 5510 6360 30  0001 C CNN
+F 1 "GND" H 5510 6290 30  0001 C CNN
+F 2 "" H 5510 6360 60  0000 C CNN
+F 3 "" H 5510 6360 60  0000 C CNN
+	1    5510 6360
+	0    -1   1    0   
+$EndComp
+Text Notes 4325 5855 0    60   ~ 0
+Expansion
+Text GLabel 6180 6760 2    40   Input ~ 0
+SQR1
+Text GLabel 6180 6660 2    40   Input ~ 0
+SQR2
+Text GLabel 6180 6560 2    40   Input ~ 0
+SQR3
+Text GLabel 6180 6460 2    40   Input ~ 0
+SQR4
+Wire Notes Line
+	6760 5735 4300 5735
+$Comp
+L PSLab-rescue:R-RESCUE-proto1 R50
+U 1 1 5ADAEE02
+P 1625 5500
+AR Path="/5ADAEE02" Ref="R50"  Part="1" 
+AR Path="/54260FB5/5ADAEE02" Ref="R50"  Part="1" 
+F 0 "R50" V 1550 5500 40  0000 C CNN
+F 1 "200K" V 1632 5501 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1555 5500 30  0001 C CNN
+F 3 "" H 1625 5500 30  0000 C CNN
+	1    1625 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PSLab-rescue:Conn_01x08 J8
+U 1 1 5ADD22B7
+P 5310 6760
+AR Path="/5ADD22B7" Ref="J8"  Part="1" 
+AR Path="/54260FB5/5ADD22B7" Ref="J8"  Part="1" 
+F 0 "J8" H 5310 7160 50  0000 C CNN
+F 1 "Power Pins" H 5310 6260 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 5310 6760 50  0001 C CNN
+F 3 "" H 5310 6760 50  0001 C CNN
+	1    5310 6760
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	4300 4175 4300 7450
+Wire Wire Line
+	2125 5350 2125 5250
+Connection ~ 2125 5250
+Connection ~ 1625 5250
+Wire Wire Line
+	2625 5095 2625 5250
+Connection ~ 2625 5250
+Wire Wire Line
+	2625 4695 2625 4525
+Connection ~ 2625 4525
+$Comp
+L PSLab-rescue:TEST TP?
+U 1 1 5C9C82D0
+P 4795 6995
+AR Path="/5C9C82D0" Ref="TP?"  Part="1" 
+AR Path="/54260FB5/5C9C82D0" Ref="TP9"  Part="1" 
+F 0 "TP9" H 4795 7295 50  0000 C BNN
+F 1 "TEST" H 4795 7245 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4795 6995 50  0001 C CNN
+F 3 "" H 4795 6995 50  0001 C CNN
+	1    4795 6995
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSLab-rescue:TEST TP?
+U 1 1 5C9C82D7
+P 5050 6990
+AR Path="/5C9C82D7" Ref="TP?"  Part="1" 
+AR Path="/54260FB5/5C9C82D7" Ref="TP10"  Part="1" 
+F 0 "TP10" H 5050 7290 50  0000 C BNN
+F 1 "TEST" H 5050 7240 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5050 6990 50  0001 C CNN
+F 3 "" H 5050 6990 50  0001 C CNN
+	1    5050 6990
+	1    0    0    -1  
+$EndComp
+Text GLabel 4795 6995 3    60   Input ~ 0
+VR+
+Text GLabel 5050 6990 3    60   Input ~ 0
+VR-
+$Comp
+L PSLab-rescue:TEST TP?
+U 1 1 5C9DD204
+P 4555 7000
+AR Path="/5C9DD204" Ref="TP?"  Part="1" 
+AR Path="/54260FB5/5C9DD204" Ref="TP8"  Part="1" 
+F 0 "TP8" H 4555 7300 50  0000 C BNN
+F 1 "TEST" H 4555 7250 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4555 7000 50  0001 C CNN
+F 3 "" H 4555 7000 50  0001 C CNN
+	1    4555 7000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4555 7000 3    60   Input ~ 0
+AVdd
+$Comp
+L Connector_Generic:Conn_01x08 J4
+U 1 1 5EF10C2C
+P 5980 6760
+F 0 "J4" H 5980 7185 50  0000 C CNN
+F 1 "Outputs" H 5898 6226 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 5980 6760 50  0001 C CNN
+F 3 "~" H 5980 6760 50  0001 C CNN
+	1    5980 6760
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6180 6860 6515 6860
+Wire Wire Line
+	6515 6860 6515 6985
+Wire Wire Line
+	6180 6360 6515 6360
+Wire Wire Line
+	6515 6360 6515 6860
+Connection ~ 6515 6860
+$EndSCHEMATC

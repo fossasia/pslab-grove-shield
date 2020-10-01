@@ -1,0 +1,683 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "PSLab"
+Date "2019-03-03"
+Rev "v6"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PSLab-rescue:CONN_1 MH1
+U 1 1 542435DB
+P 10205 5625
+F 0 "MH1" V 10265 5565 40  0000 L CNN
+F 1 "M" H 10205 5680 30  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad" H 10205 5625 60  0001 C CNN
+F 3 "" H 10205 5625 60  0000 C CNN
+	1    10205 5625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PSLab-rescue:CONN_1 MH3
+U 1 1 54243FB2
+P 10215 6050
+F 0 "MH3" V 10275 5985 40  0000 L CNN
+F 1 "M" H 10215 6105 30  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad" H 10215 6050 60  0001 C CNN
+F 3 "" H 10215 6050 60  0000 C CNN
+	1    10215 6050
+	0    -1   -1   0   
+$EndComp
+Text Label 4020 2390 0    60   ~ 0
+SDA
+Text Label 4020 2290 0    60   ~ 0
+SCL
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR026
+U 1 1 55B40810
+P 4020 2590
+F 0 "#PWR026" H 4020 2590 30  0001 C CNN
+F 1 "GND" H 4020 2520 30  0001 C CNN
+F 2 "" H 4020 2590 60  0000 C CNN
+F 3 "" H 4020 2590 60  0000 C CNN
+	1    4020 2590
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J6
+U 1 1 5A584DF9
+P 3820 2490
+F 0 "J6" H 3820 2690 50  0000 C CNN
+F 1 "I2C-1" H 3820 2190 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 3820 2490 50  0001 C CNN
+F 3 "" H 3820 2490 50  0001 C CNN
+	1    3820 2490
+	-1   0    0    1   
+$EndComp
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR040
+U 1 1 5A5701EC
+P 10215 6200
+F 0 "#PWR040" H 10215 6200 30  0001 C CNN
+F 1 "GND" H 10215 6130 30  0001 C CNN
+F 2 "" H 10215 6200 60  0000 C CNN
+F 3 "" H 10215 6200 60  0000 C CNN
+	1    10215 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR043
+U 1 1 5A6F5AA9
+P 10205 5775
+F 0 "#PWR043" H 10205 5775 30  0001 C CNN
+F 1 "GND" H 10205 5705 30  0001 C CNN
+F 2 "" H 10205 5775 60  0000 C CNN
+F 3 "" H 10205 5775 60  0000 C CNN
+	1    10205 5775
+	1    0    0    -1  
+$EndComp
+Text Label 4020 2490 0    60   ~ 0
+Vdd
+$Comp
+L Connector_Generic:Conn_01x04 J16
+U 1 1 5AD47B2C
+P 3825 1750
+F 0 "J16" H 3825 1950 50  0000 C CNN
+F 1 "I2C-2" H 3825 1450 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 3825 1750 50  0001 C CNN
+F 3 "" H 3825 1750 50  0001 C CNN
+	1    3825 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR044
+U 1 1 5AD48170
+P 4025 1750
+F 0 "#PWR044" H 4025 1750 30  0001 C CNN
+F 1 "GND" H 4025 1680 30  0001 C CNN
+F 2 "" H 4025 1750 60  0000 C CNN
+F 3 "" H 4025 1750 60  0000 C CNN
+	1    4025 1750
+	0    -1   -1   0   
+$EndComp
+Text Label 4025 1850 0    60   ~ 0
+Vdd
+Text Label 4025 1650 0    60   ~ 0
+SCL
+Text Label 4025 1550 0    60   ~ 0
+SDA
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR045
+U 1 1 5AD4BD5F
+P 8650 1885
+F 0 "#PWR045" H 8650 1885 30  0001 C CNN
+F 1 "GND" H 8650 1815 30  0001 C CNN
+F 2 "" H 8650 1885 60  0000 C CNN
+F 3 "" H 8650 1885 60  0000 C CNN
+	1    8650 1885
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J5
+U 1 1 5ADB5C89
+P 8460 5330
+F 0 "J5" H 8460 5630 50  0000 C CNN
+F 1 "Bluetooth" V 8565 5330 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 8460 5330 50  0001 C CNN
+F 3 "" H 8460 5330 50  0001 C CNN
+	1    8460 5330
+	-1   0    0    1   
+$EndComp
+NoConn ~ 8660 5530
+NoConn ~ 8660 5030
+Text GLabel 8660 5430 2    40   Input ~ 0
++5V
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR047
+U 1 1 5ADB8677
+P 8660 5330
+F 0 "#PWR047" H 8660 5330 30  0001 C CNN
+F 1 "GND" H 8660 5260 30  0001 C CNN
+F 2 "" H 8660 5330 60  0000 C CNN
+F 3 "" H 8660 5330 60  0000 C CNN
+	1    8660 5330
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8660 5230 2    40   Input ~ 0
+TxD2
+Text GLabel 8660 5130 2    40   Input ~ 0
+RxD2
+Text GLabel 8650 1785 2    47   Input ~ 0
+Vdd
+Text Label 8660 3255 0    60   ~ 0
+Vdd
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR049
+U 1 1 5C4F7F5A
+P 8660 3155
+F 0 "#PWR049" H 8660 3155 30  0001 C CNN
+F 1 "GND" H 8660 3085 30  0001 C CNN
+F 2 "" H 8660 3155 60  0000 C CNN
+F 3 "" H 8660 3155 60  0000 C CNN
+	1    8660 3155
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8660 2755 2    47   Input ~ 0
+CS
+Text GLabel 8660 3055 2    47   Input ~ 0
+SCK
+Text GLabel 8660 2855 2    47   Input ~ 0
+SDI
+Text GLabel 8660 2955 2    47   Input ~ 0
+SDO
+$Comp
+L Connector_Generic:Conn_01x06 J9
+U 1 1 5C4FD974
+P 8460 3055
+F 0 "J9" H 8460 3455 50  0000 C CNN
+F 1 "SPI Main" H 8460 2655 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 8460 3055 50  0001 C CNN
+F 3 "" H 8460 3055 50  0001 C CNN
+	1    8460 3055
+	-1   0    0    1   
+$EndComp
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR0101
+U 1 1 5EF48D55
+P 8705 1150
+F 0 "#PWR0101" H 8705 1150 30  0001 C CNN
+F 1 "GND" H 8705 1080 30  0001 C CNN
+F 2 "" H 8705 1150 60  0000 C CNN
+F 3 "" H 8705 1150 60  0000 C CNN
+	1    8705 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8705 1150 8650 1150
+$Comp
+L Connector_Generic:Conn_01x03 J15
+U 1 1 5EF478E2
+P 8450 1250
+F 0 "J15" H 8368 949 39  0000 C CNN
+F 1 "External Power" H 8380 1035 39  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8450 1250 50  0001 C CNN
+F 3 "~" H 8450 1250 50  0001 C CNN
+	1    8450 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5F320ECD
+P 3710 6550
+F 0 "#FLG0104" H 3710 6645 30  0001 C CNN
+F 1 "PWR_FLAG" V 3710 6785 30  0000 C CNN
+F 2 "" H 3710 6550 60  0000 C CNN
+F 3 "" H 3710 6550 60  0000 C CNN
+	1    3710 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J7
+U 1 1 5EF3BE2C
+P 8450 1985
+F 0 "J7" V 8450 2260 50  0000 L CNN
+F 1 "UART/ESP" V 8560 1745 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 8450 1985 50  0001 C CNN
+F 3 "~" H 8450 1985 50  0001 C CNN
+	1    8450 1985
+	-1   0    0    1   
+$EndComp
+Text GLabel 3710 6550 0    39   Input ~ 8
++5V
+Text GLabel 8650 1985 2    40   Input ~ 0
+RxD2
+Text GLabel 8650 2085 2    40   Input ~ 0
+TxD2
+Text GLabel 8650 2185 2    47   Input ~ 0
+IOut
+Text GLabel 8650 1350 2    40   Input ~ 0
++5V
+$Comp
+L PSLab-GroveShield-rescue:Logos-PSLab S?
+U 1 1 5F116DCB
+P 1855 4670
+AR Path="/5C27B0EA/5F116DCB" Ref="S?"  Part="1" 
+AR Path="/5F116DCB" Ref="S2"  Part="1" 
+F 0 "S2" H 1855 4550 60  0000 C CNN
+F 1 "PSLab_Logo" H 1855 4790 60  0000 C CNN
+F 2 "Custom_Components:PSLabDotIO" H 1855 4670 60  0001 C CNN
+F 3 "" H 1855 4670 60  0001 C CNN
+	1    1855 4670
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J13
+U 1 1 5F2366BD
+P 6935 5130
+F 0 "J13" H 6985 5447 50  0000 C CNN
+F 1 "ESP" H 6985 5356 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 6935 5130 50  0001 C CNN
+F 3 "~" H 6935 5130 50  0001 C CNN
+	1    6935 5130
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR0107
+U 1 1 5F237F97
+P 6735 5030
+F 0 "#PWR0107" H 6735 5030 30  0001 C CNN
+F 1 "GND" H 6735 4960 30  0001 C CNN
+F 2 "" H 6735 5030 60  0000 C CNN
+F 3 "" H 6735 5030 60  0000 C CNN
+	1    6735 5030
+	0    1    1    0   
+$EndComp
+Text GLabel 7235 5030 2    40   Input ~ 0
+RxD2
+Text GLabel 6735 5330 0    40   Input ~ 0
+TxD2
+Text Label 7375 5305 1    60   ~ 0
+Vdd
+Wire Wire Line
+	7235 5130 7375 5130
+Wire Wire Line
+	7375 5330 7235 5330
+Wire Wire Line
+	7375 5130 7375 5330
+NoConn ~ 6735 5130
+NoConn ~ 6735 5230
+NoConn ~ 7235 5230
+Text Label 7780 3260 0    60   ~ 0
+Vdd
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR0108
+U 1 1 5F24B35D
+P 7780 3160
+F 0 "#PWR0108" H 7780 3160 30  0001 C CNN
+F 1 "GND" H 7780 3090 30  0001 C CNN
+F 2 "" H 7780 3160 60  0000 C CNN
+F 3 "" H 7780 3160 60  0000 C CNN
+	1    7780 3160
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7780 2760 2    47   Input ~ 0
+CS
+Text GLabel 7780 3060 2    47   Input ~ 0
+SCK
+Text GLabel 7780 2860 2    47   Input ~ 0
+SDI
+Text GLabel 7780 2960 2    47   Input ~ 0
+SDO
+$Comp
+L Connector_Generic:Conn_01x06 J17
+U 1 1 5F24B36B
+P 7580 3060
+F 0 "J17" H 7580 3460 50  0000 C CNN
+F 1 "SPI G1" H 7580 2660 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 7580 3060 50  0001 C CNN
+F 3 "" H 7580 3060 50  0001 C CNN
+	1    7580 3060
+	-1   0    0    1   
+$EndComp
+Text Label 6975 3250 0    60   ~ 0
+Vdd
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR0109
+U 1 1 5F25AB18
+P 6975 3150
+F 0 "#PWR0109" H 6975 3150 30  0001 C CNN
+F 1 "GND" H 6975 3080 30  0001 C CNN
+F 2 "" H 6975 3150 60  0000 C CNN
+F 3 "" H 6975 3150 60  0000 C CNN
+	1    6975 3150
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6975 3050 2    47   Input ~ 0
+SCK
+Text GLabel 6975 2850 2    47   Input ~ 0
+SDI
+Text GLabel 6975 2950 2    47   Input ~ 0
+SDO
+$Comp
+L Connector_Generic:Conn_01x06 J12
+U 1 1 5F25AB26
+P 6775 3050
+F 0 "J12" H 6775 3450 50  0000 C CNN
+F 1 "SPI G2" H 6775 2650 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 6775 3050 50  0001 C CNN
+F 3 "" H 6775 3050 50  0001 C CNN
+	1    6775 3050
+	-1   0    0    1   
+$EndComp
+Text GLabel 6975 2750 2    47   Input ~ 0
+IOut
+$Comp
+L Connector_Generic:Conn_01x04 J14
+U 1 1 5F271016
+P 7580 2050
+F 0 "J14" H 7580 2250 50  0000 C CNN
+F 1 "UART G1" H 7580 1750 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 7580 2050 50  0001 C CNN
+F 3 "" H 7580 2050 50  0001 C CNN
+	1    7580 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR0110
+U 1 1 5F27101C
+P 7780 1850
+F 0 "#PWR0110" H 7780 1850 30  0001 C CNN
+F 1 "GND" H 7780 1780 30  0001 C CNN
+F 2 "" H 7780 1850 60  0000 C CNN
+F 3 "" H 7780 1850 60  0000 C CNN
+	1    7780 1850
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7780 1950 2    47   Input ~ 0
+Vdd
+Text GLabel 7780 2150 2    40   Input ~ 0
+RxD2
+Text GLabel 7780 2050 2    40   Input ~ 0
+TxD2
+$Comp
+L Connector_Generic:Conn_01x04 J10
+U 1 1 5F27DBD5
+P 3025 2515
+F 0 "J10" H 3025 2715 50  0000 C CNN
+F 1 "I2C G2" H 3025 2215 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 3025 2515 50  0001 C CNN
+F 3 "" H 3025 2515 50  0001 C CNN
+	1    3025 2515
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J11
+U 1 1 5F27DBE0
+P 3030 1775
+F 0 "J11" H 3030 1975 50  0000 C CNN
+F 1 "I2C G1" H 3030 1475 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 3030 1775 50  0001 C CNN
+F 3 "" H 3030 1775 50  0001 C CNN
+	1    3030 1775
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 5F2867AA
+P 2275 2520
+F 0 "J4" H 2275 2720 50  0000 C CNN
+F 1 "I2C G4" H 2275 2220 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 2275 2520 50  0001 C CNN
+F 3 "" H 2275 2520 50  0001 C CNN
+	1    2275 2520
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J8
+U 1 1 5F2867B5
+P 2280 1780
+F 0 "J8" H 2280 1980 50  0000 C CNN
+F 1 "I2C G3" H 2280 1480 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 2280 1780 50  0001 C CNN
+F 3 "" H 2280 1780 50  0001 C CNN
+	1    2280 1780
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5F2867D8
+P 1480 2545
+F 0 "J1" H 1480 2745 50  0000 C CNN
+F 1 "I2C G6" H 1480 2245 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 1480 2545 50  0001 C CNN
+F 3 "" H 1480 2545 50  0001 C CNN
+	1    1480 2545
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 5F2867E3
+P 1485 1805
+F 0 "J3" H 1485 2005 50  0000 C CNN
+F 1 "I2C G5" H 1485 1505 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 1485 1805 50  0001 C CNN
+F 3 "" H 1485 1805 50  0001 C CNN
+	1    1485 1805
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1685 1605 1755 1605
+Wire Wire Line
+	1755 1605 1755 1055
+Wire Wire Line
+	1755 1055 2585 1055
+Wire Wire Line
+	3590 1055 3590 1575
+Wire Wire Line
+	3590 2315 3225 2315
+Wire Wire Line
+	3230 1575 3590 1575
+Connection ~ 3590 1575
+Wire Wire Line
+	3590 1575 3590 2315
+Wire Wire Line
+	2480 1580 2585 1580
+Wire Wire Line
+	2585 1580 2585 1055
+Connection ~ 2585 1055
+Wire Wire Line
+	2585 1055 3590 1055
+Wire Wire Line
+	1680 2345 1755 2345
+Wire Wire Line
+	1755 2345 1755 3080
+Wire Wire Line
+	1755 3080 2585 3080
+Wire Wire Line
+	3590 3080 3590 2315
+Connection ~ 3590 2315
+Wire Wire Line
+	2475 2320 2585 2320
+Wire Wire Line
+	2585 2320 2585 3080
+Connection ~ 2585 3080
+Wire Wire Line
+	2585 3080 3590 3080
+Wire Wire Line
+	4020 2290 4480 2290
+Wire Wire Line
+	4480 2290 4480 3080
+Wire Wire Line
+	4480 3080 3590 3080
+Connection ~ 3590 3080
+Wire Wire Line
+	4020 2390 4400 2390
+Wire Wire Line
+	4400 2390 4400 2990
+Wire Wire Line
+	4400 2990 3490 2990
+Wire Wire Line
+	3490 2990 3490 2415
+Wire Wire Line
+	3490 2415 3225 2415
+Wire Wire Line
+	2475 2420 2670 2420
+Wire Wire Line
+	2670 2420 2670 2990
+Wire Wire Line
+	2670 2990 3490 2990
+Connection ~ 3490 2990
+Wire Wire Line
+	2670 2990 1840 2990
+Wire Wire Line
+	1840 2990 1840 2445
+Wire Wire Line
+	1840 2445 1680 2445
+Connection ~ 2670 2990
+Wire Wire Line
+	1685 1705 1850 1705
+Wire Wire Line
+	1850 1705 1850 1155
+Wire Wire Line
+	1850 1155 2670 1155
+Wire Wire Line
+	3500 1155 3500 1675
+Wire Wire Line
+	3500 1675 3230 1675
+Wire Wire Line
+	2480 1680 2670 1680
+Wire Wire Line
+	2670 1680 2670 1155
+Connection ~ 2670 1155
+Wire Wire Line
+	2670 1155 3500 1155
+Wire Wire Line
+	1685 1805 1950 1805
+Wire Wire Line
+	1950 1805 1950 1255
+Wire Wire Line
+	1950 1255 2760 1255
+Wire Wire Line
+	3410 1255 3410 1775
+Wire Wire Line
+	2480 1780 2760 1780
+Wire Wire Line
+	2760 1780 2760 1255
+Connection ~ 2760 1255
+Wire Wire Line
+	2760 1255 3410 1255
+Wire Wire Line
+	1680 2545 1920 2545
+Wire Wire Line
+	1920 2545 1920 2915
+Wire Wire Line
+	1920 2915 2760 2915
+Wire Wire Line
+	3400 2915 3400 2515
+Wire Wire Line
+	3400 2515 3225 2515
+Wire Wire Line
+	2475 2520 2760 2520
+Wire Wire Line
+	2760 2520 2760 2915
+Connection ~ 2760 2915
+Wire Wire Line
+	2760 2915 3400 2915
+Wire Wire Line
+	4020 2490 4305 2490
+Wire Wire Line
+	4305 2490 4305 2915
+Wire Wire Line
+	4305 2915 3400 2915
+Connection ~ 3400 2915
+Wire Wire Line
+	3500 1675 3500 2415
+Wire Wire Line
+	3500 2415 3490 2415
+Connection ~ 3500 1675
+Connection ~ 3490 2415
+Wire Wire Line
+	3400 2515 3400 1775
+Wire Wire Line
+	3230 1775 3400 1775
+Connection ~ 3400 2515
+Connection ~ 3400 1775
+Wire Wire Line
+	3400 1775 3410 1775
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR0111
+U 1 1 5F2F660D
+P 1685 1905
+F 0 "#PWR0111" H 1685 1905 30  0001 C CNN
+F 1 "GND" H 1685 1835 30  0001 C CNN
+F 2 "" H 1685 1905 60  0000 C CNN
+F 3 "" H 1685 1905 60  0000 C CNN
+	1    1685 1905
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR0112
+U 1 1 5F2F6E36
+P 2480 1880
+F 0 "#PWR0112" H 2480 1880 30  0001 C CNN
+F 1 "GND" H 2480 1810 30  0001 C CNN
+F 2 "" H 2480 1880 60  0000 C CNN
+F 3 "" H 2480 1880 60  0000 C CNN
+	1    2480 1880
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR0113
+U 1 1 5F2F7A4F
+P 3230 1875
+F 0 "#PWR0113" H 3230 1875 30  0001 C CNN
+F 1 "GND" H 3230 1805 30  0001 C CNN
+F 2 "" H 3230 1875 60  0000 C CNN
+F 3 "" H 3230 1875 60  0000 C CNN
+	1    3230 1875
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR0114
+U 1 1 5F2F862B
+P 1680 2645
+F 0 "#PWR0114" H 1680 2645 30  0001 C CNN
+F 1 "GND" H 1680 2575 30  0001 C CNN
+F 2 "" H 1680 2645 60  0000 C CNN
+F 3 "" H 1680 2645 60  0000 C CNN
+	1    1680 2645
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR0115
+U 1 1 5F2F97F6
+P 2475 2620
+F 0 "#PWR0115" H 2475 2620 30  0001 C CNN
+F 1 "GND" H 2475 2550 30  0001 C CNN
+F 2 "" H 2475 2620 60  0000 C CNN
+F 3 "" H 2475 2620 60  0000 C CNN
+	1    2475 2620
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR0116
+U 1 1 5F2FA34B
+P 3225 2615
+F 0 "#PWR0116" H 3225 2615 30  0001 C CNN
+F 1 "GND" H 3225 2545 30  0001 C CNN
+F 2 "" H 3225 2615 60  0000 C CNN
+F 3 "" H 3225 2615 60  0000 C CNN
+	1    3225 2615
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 8650 1250
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR0102
+U 1 1 5F320C86
+P 10925 5775
+F 0 "#PWR0102" H 10925 5775 30  0001 C CNN
+F 1 "GND" H 10925 5705 30  0001 C CNN
+F 2 "" H 10925 5775 60  0000 C CNN
+F 3 "" H 10925 5775 60  0000 C CNN
+	1    10925 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F321224
+P 10925 5775
+F 0 "#FLG0101" H 10925 5850 50  0001 C CNN
+F 1 "PWR_FLAG" H 10925 5948 50  0000 C CNN
+F 2 "" H 10925 5775 50  0001 C CNN
+F 3 "~" H 10925 5775 50  0001 C CNN
+	1    10925 5775
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
