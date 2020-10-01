@@ -1,0 +1,17 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Logos-PSLab
+#
+DEF Logos-PSLab S 0 40 Y Y 1 F N
+F0 "S" 0 -120 60 H V C CNN
+F1 "Logos-PSLab" 0 120 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+T 0 0 0 60 0 0 0 Logo/Silk Normal 1 C C
+S -240 50 240 -70 0 0 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

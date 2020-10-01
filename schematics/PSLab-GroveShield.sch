@@ -245,59 +245,7 @@ IOut
 Text GLabel 8650 1350 2    40   Input ~ 0
 +5V
 $Comp
-L PSLab:Logos S?
-U 1 1 5F116DB3
-P 1345 4000
-AR Path="/5C27B0EA/5F116DB3" Ref="S?"  Part="1" 
-AR Path="/5F116DB3" Ref="S1"  Part="1" 
-F 0 "S1" H 1345 3880 60  0000 C CNN
-F 1 "OpenHardware" H 1345 4120 60  0000 C CNN
-F 2 "Symbols:OSHW-Logo_5.7x6mm_SilkScreen" H 1345 4000 60  0001 C CNN
-F 3 "" H 1345 4000 60  0001 C CNN
-	1    1345 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L PSLab:Logos S?
-U 1 1 5F116DB9
-P 2245 4000
-AR Path="/5C27B0EA/5F116DB9" Ref="S?"  Part="1" 
-AR Path="/5F116DB9" Ref="S4"  Part="1" 
-F 0 "S4" H 2245 3880 60  0000 C CNN
-F 1 "ESD-Logo" H 2245 4120 60  0000 C CNN
-F 2 "Symbols:ESD-Logo_6.6x6mm_SilkScreen" H 2245 4000 60  0001 C CNN
-F 3 "" H 2245 4000 60  0001 C CNN
-	1    2245 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L PSLab:Logos S?
-U 1 1 5F116DBF
-P 3245 4000
-AR Path="/5C27B0EA/5F116DBF" Ref="S?"  Part="1" 
-AR Path="/5F116DBF" Ref="S7"  Part="1" 
-F 0 "S7" H 3245 3880 60  0000 C CNN
-F 1 "FOSSASIA_Logo_S" H 3245 4120 60  0000 C CNN
-F 2 "Custom_Components:FOSSASIA_Logo" H 3245 4000 60  0001 C CNN
-F 3 "" H 3245 4000 60  0001 C CNN
-	1    3245 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L PSLab:Logos S?
-U 1 1 5F116DC5
-P 4195 4000
-AR Path="/5C27B0EA/5F116DC5" Ref="S?"  Part="1" 
-AR Path="/5F116DC5" Ref="S10"  Part="1" 
-F 0 "S10" H 4195 3880 60  0000 C CNN
-F 1 "OpnTec_Logo" H 4195 4120 60  0000 C CNN
-F 2 "Custom_Components:OpnTec_Logo" H 4195 4000 60  0001 C CNN
-F 3 "" H 4195 4000 60  0001 C CNN
-	1    4195 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L PSLab:Logos S?
+L PSLab-GroveShield-rescue:Logos-PSLab S?
 U 1 1 5F116DCB
 P 1855 4670
 AR Path="/5C27B0EA/5F116DCB" Ref="S?"  Part="1" 
@@ -307,71 +255,6 @@ F 1 "PSLab_Logo" H 1855 4790 60  0000 C CNN
 F 2 "Custom_Components:PSLabDotIO" H 1855 4670 60  0001 C CNN
 F 3 "" H 1855 4670 60  0001 C CNN
 	1    1855 4670
-	1    0    0    -1  
-$EndComp
-$Comp
-L PSLab:Logos S?
-U 1 1 5F116DD1
-P 2750 4675
-AR Path="/5C27B0EA/5F116DD1" Ref="S?"  Part="1" 
-AR Path="/5F116DD1" Ref="S5"  Part="1" 
-F 0 "S5" H 2750 4555 60  0000 C CNN
-F 1 "PSL_Logo" H 2750 4795 60  0000 C CNN
-F 2 "Custom_Components:PSL_Logo" H 2750 4675 60  0001 C CNN
-F 3 "" H 2750 4675 60  0001 C CNN
-	1    2750 4675
-	1    0    0    -1  
-$EndComp
-$Comp
-L PSLab:Logos S?
-U 1 1 5F116DD7
-P 3700 4675
-AR Path="/5C27B0EA/5F116DD7" Ref="S?"  Part="1" 
-AR Path="/5F116DD7" Ref="S8"  Part="1" 
-F 0 "S8" H 3700 4555 60  0000 C CNN
-F 1 "QR_Code" H 3700 4795 60  0000 C CNN
-F 2 "Custom_Components:Website_QR" H 3700 4675 60  0001 C CNN
-F 3 "" H 3700 4675 60  0001 C CNN
-	1    3700 4675
-	1    0    0    -1  
-$EndComp
-$Comp
-L PSLab:Logos S?
-U 1 1 5F116DDD
-P 1865 5350
-AR Path="/5C27B0EA/5F116DDD" Ref="S?"  Part="1" 
-AR Path="/5F116DDD" Ref="S3"  Part="1" 
-F 0 "S3" H 1865 5230 60  0000 C CNN
-F 1 "OpnTec_Logo" H 1865 5470 60  0000 C CNN
-F 2 "Custom_Components:OpnTec_Logo" H 1865 5350 60  0001 C CNN
-F 3 "" H 1865 5350 60  0001 C CNN
-	1    1865 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L PSLab:Logos S?
-U 1 1 5F116DE3
-P 2765 5350
-AR Path="/5C27B0EA/5F116DE3" Ref="S?"  Part="1" 
-AR Path="/5F116DE3" Ref="S6"  Part="1" 
-F 0 "S6" H 2765 5230 60  0000 C CNN
-F 1 "FOSSASIA_Logo_L" H 2765 5470 60  0000 C CNN
-F 2 "Custom_Components:FOSSASIA_LogoL" H 2765 5350 60  0001 C CNN
-F 3 "" H 2765 5350 60  0001 C CNN
-	1    2765 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L PSLab:Logos S?
-U 1 1 5F116DE9
-P 3705 5340
-AR Path="/5C27B0EA/5F116DE9" Ref="S?"  Part="1" 
-AR Path="/5F116DE9" Ref="S9"  Part="1" 
-F 0 "S9" H 3705 5220 60  0000 C CNN
-F 1 "PSLabDotIO_B" H 3705 5460 60  0000 C CNN
-F 2 "Custom_Components:PSLabDotIO4000" H 3705 5340 60  0001 C CNN
-F 3 "" H 3705 5340 60  0001 C CNN
-	1    3705 5340
 	1    0    0    -1  
 $EndComp
 $Comp
