@@ -2,10 +2,7 @@
 
 The Grove shield for the [Pocket Science Lab](https://pslab.io).
 
-[![Build Status](https://travis-ci.org/fossasia/pslab-grove-shield.svg?branch=master)](https://travis-ci.org/fossasia/pslab-grove-shield)
-[![Gitter](https://badges.gitter.im/fossasia/pslab.svg)](https://gitter.im/fossasia/pslab?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Mailing List](https://img.shields.io/badge/Mailing%20List-FOSSASIA-blue.svg)](https://groups.google.com/forum/#!forum/pslab-fossasia)
-[![Twitter Follow](https://img.shields.io/twitter/follow/pslabio.svg?style=social&label=Follow&maxAge=2592000?style=flat-square)](https://twitter.com/pslabio)
 
 This repository hosts the schematics of the Grove Shield for the Pocket Science Lab open hardware platform (PSLab).
 
@@ -22,7 +19,6 @@ The Grove open hardware project was started by Seeed Studio. The goal is to make
 
 ## Communication
 
-* The PSLab [chat channel is on Gitter](https://gitter.im/fossasia/pslab).
 * Please also join us on the [PSLab Mailing List](https://groups.google.com/forum/#!forum/pslab-fossasia).
 
 ## Content of Repository
